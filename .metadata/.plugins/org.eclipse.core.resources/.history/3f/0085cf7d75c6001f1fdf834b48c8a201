@@ -1,0 +1,5 @@
+spring.application.name=1-Project-App
+
+spring.datasource.url=
+spring.datasource.username=
+spring.datasource.password=
