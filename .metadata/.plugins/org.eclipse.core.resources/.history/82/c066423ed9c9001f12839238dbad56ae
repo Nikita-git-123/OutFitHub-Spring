@@ -1,0 +1,30 @@
+package com.example.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import com.example.entity.Customer;
+import com.example.repo.CustomerRepo;
+
+@Service
+public class CustomerService {
+
+	@Autowired
+	private CustomerRepo customerRepo;
+	
+	public boolean saveCustomer(Customer customer) {	
+		Customer savedCustomer = customerRepo.save(customer);	
+		// System.out.println("Saved ...... " + savedCustomer);
+		return savedCustomer.getId() != null;
+	}
+
+	public boolean getCustomerBySecQn(@RequestParam String secQn, Model model) {
+		
+		boolean secQnExists = customerRepo.secQnExists(secQn);
+		
+		return secQnExists;
+	}
+
+}

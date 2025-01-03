@@ -5,7 +5,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.example.entity.Customer;
@@ -16,40 +15,44 @@ public class CustomerController {
 
 	@Autowired
 	private CustomerService customerService;
-	
+
 	@GetMapping("/")
 	public String loadForm(Model model) {
 		Customer customerObj = new Customer();
-		model.addAttribute("customer", customerObj);
+		model.addAttribute("customer", customerObj);	
 		return "Register";
 	}
 	
+	@GetMapping("/secqn")
+	public String loadFormforSecQn(Model model) {
+		Customer customerObj = new Customer();
+		model.addAttribute("secQn", customerObj);
+		return "SecQn";
+		
+		// return "Register";
+	}
+
 	@ResponseBody
 	@PostMapping("/customer")
-	public String handleSubmit(@RequestParam("Upwd1") String Upwd1, @RequestParam("Upwd2") String Upwd2,  Customer customer, Model model) {
-		
-		if(Upwd1.equals(Upwd2)) {
-			boolean savedCustomer = customerService.saveCustomer(customer);
-			if(savedCustomer) 
-				return "successfull.......";
-			else
-				return "failed.............";
-		}
-		
-		/*
-		 * boolean isSaved = customerService.saveCustomer(customer); if(isSaved) return
-		 * "Successfull..........";
-		 */
-		
-		
-		/*if(isSaved) {
-			 model.addAttribute("smsg", "User Saved");
-		}
-		else {
-			model.addAttribute("emsg", "User not saved");
-		}
-		return "index";*/
-		
+	public String handleSubmit(Customer customer, Model model) {
+		boolean savedCustomer = customerService.saveCustomer(customer);
+		if (savedCustomer)
+			return "successfull.......";
 		return "saved successfully........";
 	}
+
+	@ResponseBody
+	@PostMapping("/secQnCustomer")
+	public String handleForgotPwd(String secQn, Model model) {
+		// String customerBySecQn = customerService.getCustomerBySecQn(secQn, model);
+		// return "successfull......." + customerBySecQn ;
+		
+		 boolean isCorrect = customerService.findBySecQn(secQn);
+	        if (isCorrect) {
+	            return "successfull..........";  // Redirect to the next page if correct
+	        } else {
+	            return "not found ";  // Stay on the same page and show error message
+	        }
+	}
+
 }

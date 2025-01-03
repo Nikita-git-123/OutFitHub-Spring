@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Forgot Password </title>
+        <meta charset="UTF-8">
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 90vh;
+                background: url(ForgotPwd.avif) no-repeat;
+                background-size: cover;
+            }
+
+            .ForgotPwd {
+                margin-right: 400px;
+                margin-top: 300px;
+                width: 420px;
+                background-color: transparent;
+                color: black;
+                border-radius: 12px;
+                padding: 30px 30px;
+                border: 2px solid black;
+            }
+
+            .ForgotPwd h1 {
+                font-size: 36px;
+                text-align: center;
+            }
+
+            .ForgotPwd .input-box {
+                position: relative;
+                width: 100%;
+                height: 50px;
+                margin: 5px 0;
+            }
+
+            .input-box input {
+                font-size: 16px;
+                color: black;
+                width: 94%;
+                height: 100%;
+                background-color: transparent;
+                border: none;
+                outline: none;
+                border: 2px solid black ;
+                border-radius: 40px;
+                background-position: center;
+                padding-left: 20px;
+            }
+
+            .input-box input::placeholder {
+                color: black;
+            }
+
+            .ForgotPwd .btn {
+                width: 55%;
+                height: 30px;
+                border: none;
+                border-radius: 40px;
+                background-color: white;
+                margin: 15px 95px 0px 95px;
+                font-size: 16px;
+                font-weight: bold;
+            }
+
+            .ForgotPwd button:hover {
+                height: 35px;
+                background-color: rgb(234, 137, 169);
+                font-size: 20px;
+                border: 2px solid black;
+            }
+
+            .register-link {
+                font: 15px;
+                text-align: center;
+            }
+
+            .register-link p a {
+                color: black;
+                text-decoration: none;
+            }
+
+            .register-link p a:hover {
+                font-weight: bold;
+                text-decoration: underline;
+                font-size: 18px;
+            }
+
+            .btn a {
+                color: black;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="ForgotPwd">
+            <form action="PwdSet.html">
+                <h1> Forgot Password </h1>
+                <div class="input-box">
+                    <input type="password" placeholder="Security Question:Name of your first pet?" maxlength="25" name="Uname" required>
+                </div> <br>
+                <button type="Submit" class="btn"> Submit </button>
+                <div class="register-link">
+                    <p> Don't have an account? <a href="Register.html"> <b> Register </b> </a> </p>
+                </div> 
+            </form>
+        </div>
+    </body>
+</html>

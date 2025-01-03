@@ -1,7 +1,11 @@
 package com.example.service;
 
+import java.util.Optional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import com.example.entity.Customer;
 import com.example.repo.CustomerRepo;
@@ -12,19 +16,22 @@ public class CustomerService {
 	@Autowired
 	private CustomerRepo customerRepo;
 	
-	public boolean saveCustomer(Customer customer) {
-		
-		/*
-		 * Customer customer = new Customer(); customer.setName("Nikita");
-		 * customer.setEmail("abc@gmail.com"); customer.setPassword("abc");
-		 * customer.setPhno(124567l); customer.setSecQn("tommy");
-		 * customer.setUsername("niku123");
-		 */
-		
+	public boolean saveCustomer(Customer customer) {	
 		Customer savedCustomer = customerRepo.save(customer);	
-		System.out.println("Saved ...... " + savedCustomer);
+		// System.out.println("Saved ...... " + savedCustomer);
 		return savedCustomer.getId() != null;
-
 	}
 
+	/*
+	 * public String getCustomerBySecQn(@RequestParam String secQn, Model model) {
+	 * boolean secQnExists = customerRepo.secQnExists(secQn); return
+	 * "successfull...." + secQnExists; }
+	 */
+	
+	public boolean findBySecQn(String secQn) {
+		Optional<Customer> bySecQn = customerRepo.findBySecQn(secQn);
+		return bySecQn.map(securityQuestion -> securityQuestion.getSecQn().equals(secQn))
+                .orElse(false);
+	}
+	
 }
