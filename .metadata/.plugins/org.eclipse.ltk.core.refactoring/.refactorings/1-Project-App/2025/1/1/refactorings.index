@@ -5,3 +5,10 @@
 1735912112132	Extract local variable 'customerBySecQn'
 1735912819675	Extract local variable 'bySecQn'
 1735913528312	Rename resource 'secQn.html'
+1735968998545	Rename type 'CustomerService'
+1735969111374	Delete element
+1735969121394	Rename type 'CustomerServiceImpl'
+1735971309526	Extract local variable 'setNewPwd'
+1735972088147	Extract local variable 'setPwd'
+1735972717202	Delete element
+1735972777630	Extract local variable 'setPwd'

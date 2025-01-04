@@ -12,26 +12,20 @@ import com.example.repo.CustomerRepo;
 
 @Service
 public class CustomerService {
+	
 
 	@Autowired
 	private CustomerRepo customerRepo;
-	
-	public boolean saveCustomer(Customer customer) {	
-		Customer savedCustomer = customerRepo.save(customer);	
+
+	public boolean saveCustomer(Customer customer) {
+		Customer savedCustomer = customerRepo.save(customer);
 		// System.out.println("Saved ...... " + savedCustomer);
 		return savedCustomer.getId() != null;
 	}
 
-	/*
-	 * public String getCustomerBySecQn(@RequestParam String secQn, Model model) {
-	 * boolean secQnExists = customerRepo.secQnExists(secQn); return
-	 * "successfull...." + secQnExists; }
-	 */
-	
 	public boolean findBySecQn(String secQn) {
 		Optional<Customer> bySecQn = customerRepo.findBySecQn(secQn);
-		return bySecQn.map(securityQuestion -> securityQuestion.getSecQn().equals(secQn))
-                .orElse(false);
+		return bySecQn.map(securityQuestion -> securityQuestion.getSecQn().equals(secQn)).orElse(false);
 	}
 	
 }
