@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Login Page </title>
+        <title> Forgot Password </title>
         <meta charset="UTF-8">
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <style>
             body {
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 min-height: 90vh;
-                background: url(ShoppingImage3.jpg!sw800) no-repeat;
+                background: url(ForgotPwd.avif) no-repeat;
                 background-size: cover;
             }
 
-            .FormDiv {
+            .ForgotPwd {
+                margin-right: 400px;
+                margin-top: 300px;
                 width: 420px;
                 background-color: transparent;
                 color: black;
@@ -23,22 +24,22 @@
                 border: 2px solid black;
             }
 
-            .FormDiv h1 {
+            .ForgotPwd h1 {
                 font-size: 36px;
                 text-align: center;
             }
 
-            .FormDiv .input-box {
+            .ForgotPwd .input-box {
                 position: relative;
                 width: 100%;
                 height: 50px;
-                margin: 30px 0;
+                margin: 5px 0;
             }
 
             .input-box input {
                 font-size: 16px;
                 color: black;
-                width: 100%;
+                width: 94%;
                 height: 100%;
                 background-color: transparent;
                 border: none;
@@ -53,36 +54,7 @@
                 color: black;
             }
 
-            .input-box i {
-                position: absolute;
-                right: 20px;
-                top: 20%;
-                font-size: 25px ;
-            }
-
-            .FormDiv .remember-forgot {
-                display: flex;
-                justify-content: space-evenly;
-                font-size: 15px;
-            }
-
-            .remember-forgot label input{
-                accent-color: #fff;
-            }
-
-            .remember-forgot a {
-                color: black;
-                text-decoration: none;
-                font-size: 15px;
-            }
-
-            .remember-forgot a:hover {
-                text-decoration: underline;
-                font-weight: bold;
-                font-size: 18px;
-            }
-
-            .FormDiv .btn {
+            .ForgotPwd .btn {
                 width: 55%;
                 height: 30px;
                 border: none;
@@ -93,14 +65,14 @@
                 font-weight: bold;
             }
 
-            .FormDiv button:hover {
+            .ForgotPwd button:hover {
                 height: 35px;
                 background-color: rgb(234, 137, 169);
                 font-size: 20px;
                 border: 2px solid black;
             }
-            
-            .FormDiv .register-link {
+
+            .register-link {
                 font: 15px;
                 text-align: center;
             }
@@ -116,25 +88,22 @@
                 font-size: 18px;
             }
 
+            .btn a {
+                color: black;
+                text-decoration: none;
+            }
         </style>
     </head>
     <body>
-        <div class="FormDiv">
-            <form th:action="@{/login}" th:object="${login}" >
-                <h1> Login </h1>
+        <div class="ForgotPwd">
+            <form th:action="@{/secQnCustomer}" th:object="${secQn}" method="post">
+                <h1> Forgot Password </h1>
                 <div class="input-box">
-                    <input type="text" th:field="*{username}" placeholder="Username" required> <i class='bx bxs-user-rectangle'></i><br>
-                </div>
-                <div class="input-box">
-                    <input type="password" th:field="*{password1}" placeholder="Password" required> <i class='bx bxs-lock' ></i><br>
-                </div>
-                <div class="remember-forgot">
-                    <label> <input type="checkbox"> Remember Me </label> 
-                    <a href="/secqn"> Forgot Password </a> <br>
-                </div>
-                <button type="Submit" class="btn"> Login </button> <br> 
+                    <input type="password" th:field="*{secQn}" placeholder="Security Question:Name of your first pet?" maxlength="25" name="Upass" required>
+                </div> <br>
+                <button type="Submit" class="btn"> Submit </button>
                 <div class="register-link">
-                    <p> Don't have an account? <a href="/register"> <b> Register </b> </a> </p>
+                    <p> Don't have an account? <a href="Register.html"> <b> Register </b> </a> </p>
                 </div> 
             </form>
         </div>

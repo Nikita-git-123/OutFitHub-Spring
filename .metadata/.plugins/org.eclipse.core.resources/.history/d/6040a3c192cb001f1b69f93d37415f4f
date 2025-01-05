@@ -130,7 +130,7 @@
                 </div>
                 <div class="remember-forgot">
                     <label> <input type="checkbox"> Remember Me </label> 
-                    <a href="/secqn"> Forgot Password </a> <br>
+                    <a href="SecQn.html"> Forgot Password </a> <br>
                 </div>
                 <button type="Submit" class="btn"> Login </button> <br> 
                 <div class="register-link">
