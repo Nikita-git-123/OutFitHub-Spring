@@ -13,6 +13,7 @@ import com.example.repo.CustomerRepo;
 @Service
 public class CustomerService {
 	
+	private Customer customer;
 
 	@Autowired
 	private CustomerRepo customerRepo;
@@ -25,7 +26,15 @@ public class CustomerService {
 
 	public boolean findBySecQn(String secQn) {
 		Optional<Customer> bySecQn = customerRepo.findBySecQn(secQn);
+		// if (bySecQn != null) {
+			// Customer save = customerRepo.save(customer);
+			// System.out.println("Completed ...... " + save);
+		// }
 		return bySecQn.map(securityQuestion -> securityQuestion.getSecQn().equals(secQn)).orElse(false);
+	}
+	
+	public Optional<Customer> findByUsernameAndPassword1(String username, String password1) {
+		return customerRepo.findByUsernameAndPassword1(username, password1);
 	}
 	
 }

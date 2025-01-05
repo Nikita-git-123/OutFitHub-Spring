@@ -15,11 +15,16 @@ import com.example.service.CustomerService;
 
 @Controller
 public class CustomerController {
-	
+
 	@Autowired
 	private CustomerService customerService;
 
 	@GetMapping("/")
+	public String loadCode() {
+		return "Code";
+	}
+	
+	@GetMapping("/register")
 	public String loadForm(Model model) {
 		Customer customerObj = new Customer();
 		model.addAttribute("customer", customerObj);
@@ -32,17 +37,24 @@ public class CustomerController {
 		model.addAttribute("secQn", customerObj);
 		return "SecQn";
 	}
+	
+	@GetMapping("/loginPage")
+	public String loadFormforLogin(Customer customer,Model model) {
+		model.addAttribute("login", new Customer());
+		return "Login";
+	}
 
 	@PostMapping("/customer")
 	public String handleSubmit(Customer customer, Model model) {
 		boolean savedCustomer = customerService.saveCustomer(customer);
+		model.addAttribute("login", new Customer());
 		if (savedCustomer)
-			return "Registration";
+			return "Login";
 		return "Registration";
 	}
 
 	@PostMapping("/secQnCustomer")
-	public String handleForgotPwd(String secQn, String password, Model model) {
+	public String handleForgotPwd(String secQn, Model model) {
 
 		boolean isCorrect = customerService.findBySecQn(secQn);
 		model.addAttribute("updatePwd", new Customer());
@@ -53,14 +65,6 @@ public class CustomerController {
 		}
 	}
 
-	/*
-	 * @GetMapping("/newpwd") public String loadFormforPwd(Model model) { Customer
-	 * customerObj = new Customer(); model.addAttribute("updatePwd", customerObj);
-	 * return "PwdSet";
-	 * 
-	 * // return "Register"; }
-	 */
-
 	@PostMapping("/setPwd")
 	@ResponseBody
 	public String setNewForgotPwd(String password1, String password2, Model model) {
@@ -70,4 +74,12 @@ public class CustomerController {
 		return "failed...";
 	}
 
+	@GetMapping("/login")
+	public String login(@RequestParam String username, @RequestParam String password1) {
+		Optional<Customer> customer = customerService.findByUsernameAndPassword1(username, password1);
+		if (customer.isPresent()) {
+			return "Code";
+		}
+		return "Login";
+	}
 }

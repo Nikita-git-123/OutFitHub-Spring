@@ -9,5 +9,7 @@ import com.example.entity.Customer;
 public interface CustomerRepo extends JpaRepository<Customer, Integer>{
 	
 	Optional<Customer> findBySecQn(String secQn);
+	
+	Optional<Customer> findByUsernameAndPassword1(String username, String password1);
 		
 }
