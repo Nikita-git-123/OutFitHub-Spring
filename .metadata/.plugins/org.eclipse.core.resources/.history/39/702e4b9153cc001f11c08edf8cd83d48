@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> All Clothes </title>
+        <meta charset="UTF-8">
+        <style>
+            .cloth-set1{
+    border: 2px solid black;
+    width: 320px;
+    height: 510px;
+    text-align: center;
+    padding-top: 12px;
+    float: left;
+    margin: 10px 22px;
+}
+.clothset p{
+    font-size: 22px; 
+    margin-top: 10px;
+}
+
+.clothset b{
+    font-size: 23px;
+}
+
+.clothset del {
+    font-size: smaller;
+    margin-right: 3px;
+}
+
+.clothset a {
+    text-decoration: none;
+    color: green;
+
+}
+        </style>
+    </head>
+    <body>
+        <div class="clothset">
+            <div class="cloth-set1">
+                <a href="KurtaSet1.html">  <img height="400px" width="300px" alt="KurtaSet" src="KurtaSet1.webp">  </a>
+                <p> Woman's Rayon Kurti With Plazzo <br>
+                <b> &#x20B9; 365 </b> <del>&#x20B9;396</del> <a> 8% off </a> <br>
+                Free Delivery 
+                </p>
+            </div>
+            <div class="cloth-set1">
+               <a href="KurtaSet2.html"> <img height="400px" width="300px" alt="KurtaSet" src="KurtaSet2.webp"> </a>
+                <p> Woman's Crepe Palazzo Set <br>
+                <b> &#x20B9; 299 </b> <del>&#x20B9;310</del> <a> 4% off </a> <br>
+                Free Delivery 
+                </p>
+            </div>
+            <div class="cloth-set1">
+                <a href="KurtaSet3.html">  <img height="400px" width="300px" alt="KurtaSet" src="KurtaSet3.webp"> </a>
+                <p> Woman's Cotton Kurti With Plazzo <br>
+                <b> &#x20B9; 319 </b> <del>&#x20B9;353</del> <a> 10% off </a> <br>
+                Free Delivery 
+                </p>
+            </div>
+            <div class="cloth-set1">
+               <a href="KurtaSet4.html">  <img height="400px" width="300px" alt="KurtaSet" src="KurtaSet4.webp"> </a> 
+                <p> Woman's Cotton Kurti With Plazzo <br>
+                <b> &#x20B9; 423 </b> <del>&#x20B9;448</del> <a> 6% off </a> <br>
+                Free Delivery 
+                </p>
+            </div>
+            <div class="cloth-set1">
+               <a href="KurtaSet5.html">  <img height="400px" width="300px" alt="KurtaSet" src="KurtaSet5.webp">  </a>
+                <p> Woman's Khadi Cotton Kurti Set <br>
+                <b> &#x20B9; 308 </b> <del>&#x20B9;323</del> <a> 5% off </a> <br>
+                Free Delivery 
+                </p>
+            </div>
+            <div class="cloth-set1">
+              <a href="KurtaSet6.html">   <img height="400px" width="300px" alt="KurtaSet" src="KurtaSet6.webp">  </a>
+                <p> Woman's Cotton Kurta Set <br>
+                <b> &#x20B9; 408 </b> <del>&#x20B9;429</del> <a> 5% off </a> <br>
+                Free Delivery 
+                </p>
+            </div>
+        </div>
+
+        <div class="clothset">
+            <div class="cloth-set1">
+               <a href="Anarkali1.html"> <img height="400px" width="300px" alt="KurtaSet" src="AnarKali1.webp"> </a> 
+                <p> Woman's Anarkali Set <br>
+                    <b> &#x20B9; 284 </b> <del>&#x20B9;314</del> <a> 10% off </a> <br>
+                Free Delivery 
+                </p>
+            </div>
+            <div class="cloth-set1">
+                <a href="Anarkali2.html"> <img height="400px" width="300px" alt="KurtaSet" src="AnarKali2.webp"> </a> 
+                <p> Woman's Crepe Anarkali Set <br>
+                <b> &#x20B9; 366 </b> <del>&#x20B9;429</del> <a> 15% off </a> <br>
+                Free Delivery 
+                </p>
+            </div>
+            <div class="cloth-set1">
+                <a href="Anarkali3.html"> <img height="400px" width="300px" alt="KurtaSet" src="AnarKali3.webp"> </a> 
+                <p> Woman's Anarkali Set <br>
+                    <b> &#x20B9; 580 </b> <del>&#x20B9;623</del> <a> 7% off </a> <br>
+                Free Delivery 
+                </p>
+            </div>
+            <div class="cloth-set1">
+               <a href="Anarkali4.html">  <img height="400px" width="300px" alt="KurtaSet" src="AnarKali4.webp"> </a> 
+                <p> Woman's Anarkali Set <br>
+                <b> &#x20B9; 899 </b> <br>
+                Free Delivery 
+                </p>
+            </div>
+            <div class="cloth-set1">
+               <a href="Anarkali5.html">  <img height="400px" width="300px" alt="KurtaSet" src="AnarKali5.webp"> </a> 
+                <p> Woman's Cotton Anarkali Set <br>
+                <b> &#x20B9; 532 </b> <br>
+                Free Delivery 
+                </p>
+            </div>
+            <div class="cloth-set1">
+               <a href="Anarkali6.html">  <img height="400px" width="300px" alt="KurtaSet" src="AnarKali6.webp">  </a>
+                <p> Woman's Anarkali Set <br>
+                <b> &#x20B9; 490 </b> <br>
+                Free Delivery 
+                </p>
+            </div>
+        </div>
+
+        <div class="clothset">
+            <div class="cloth-set1">
+               <a href="KurtaDupatta1.html"> <img height="400px" width="300px" alt="KurtaSet" src="KurtaDupatta1.webp"></a> 
+                <p> Woman's Rayon Kurti With Dupatta <br>
+                <b> &#x20B9; 365 </b> <del>&#x20B9;396</del> <a> 8% off </a> <br>
+                Free Delivery 
+                </p>
+            </div>
+            <div class="cloth-set1">
+                <a href="KurtaDupatta2.html"> <img height="400px" width="300px" alt="KurtaSet" src="KurtaDupatta2.webp"> </a> 
+                <p> Woman's Crepe Dupatta Set <br>
+                <b> &#x20B9; 299 </b> <del>&#x20B9;310</del> <a> 4% off </a> <br>
+                Free Delivery 
+                </p>
+            </div>
+            <div class="cloth-set1">
+                <a href="KurtaDupatta3.html"><img height="400px" width="300px" alt="KurtaSet" src="KurtaDupatta3.webp"> </a>
+                <p> Woman's Cotton Kurti Set <br>
+                <b> &#x20B9; 319 </b> <del>&#x20B9;353</del> <a> 10% off </a> <br>
+                Free Delivery 
+                </p>
+            </div>
+            <div class="cloth-set1">
+               <a href="KurtaDupatta4.html"> <img height="400px" width="300px" alt="KurtaSet" src="KurtaDupatta4.webp"></a> 
+                <p> Woman's Kurti With Dupatta <br>
+                <b> &#x20B9; 423 </b> <del>&#x20B9;448</del> <a> 6% off </a> <br>
+                Free Delivery 
+                </p>
+            </div>
+            <div class="cloth-set1">
+                <a href="KurtaDupatta5.html"><img height="400px" width="300px" alt="KurtaSet" src="KurtaDupatta5.webp"></a> 
+                <p> Woman's Khadi Cotton Set <br>
+                <b> &#x20B9; 308 </b> <del>&#x20B9;323</del> <a> 5% off </a> <br>
+                Free Delivery 
+                </p>
+            </div>
+            <div class="cloth-set1">
+               <a href="KurtaDupatta6.html"> <img height="400px" width="300px" alt="KurtaSet" src="KurtaDupatta6.webp"> </a>
+                <p> Woman's Cotton Dupatta Set <br>
+                <b> &#x20B9; 408 </b> <del>&#x20B9;429</del> <a> 5% off </a> <br>
+                Free Delivery 
+                </p>
+            </div>
+        </div>
+
+        <div class="clothset">
+            <div class="cloth-set1">
+                <a href="CordSet1.html"><img height="400px" width="300px" alt="KurtaSet" src="CordSet1.webp"></a> 
+                <p> Woman's Rayon Cord Set <br>
+                <b> &#x20B9; 365 </b> <del>&#x20B9;396</del> <a> 8% off </a> <br>
+                Free Delivery 
+                </p>
+            </div>
+            <div class="cloth-set1">
+               <a href="CordSet2.html"> <img height="400px" width="300px" alt="KurtaSet" src="CordSet2.webp"> </a>
+                <p> Woman's Crepe Cord Set <br>
+                <b> &#x20B9; 299 </b> <del>&#x20B9;310</del> <a> 4% off </a> <br>
+                Free Delivery 
+                </p>
+            </div>
+            <div class="cloth-set1">
+               <a href="CordSet3.html"> <img height="400px" width="300px" alt="KurtaSet" src="CordSet3.webp"> </a>
+                <p> Woman's Cotton Cord Set <br>
+                <b> &#x20B9; 319 </b> <del>&#x20B9;353</del> <a> 10% off </a> <br>
+                Free Delivery 
+                </p>
+            </div>
+            <div class="cloth-set1">
+               <a href="CordSet4.html"> <img height="400px" width="300px" alt="KurtaSet" src="CordSet4.webp"> </a>
+                <p> Woman's Cord Set <br>
+                <b> &#x20B9; 423 </b> <del>&#x20B9;448</del> <a> 6% off </a> <br>
+                Free Delivery 
+                </p>
+            </div>
+            <div class="cloth-set1">
+               <a href="CordSet5.html"> <img height="400px" width="300px" alt="KurtaSet" src="CordSet5.webp"> </a>
+                <p> Woman's Khadi Cotton Cord Set <br>
+                <b> &#x20B9; 308 </b> <del>&#x20B9;323</del> <a> 5% off </a> <br>
+                Free Delivery 
+                </p>
+            </div>
+            <div class="cloth-set1">
+                <a href="CordSet6.html"><img height="400px" width="300px" alt="KurtaSet" src="CordSet6.webp"> </a>
+                <p> Woman's Cotton Cord Set <br>
+                <b> &#x20B9; 408 </b> <del>&#x20B9;429</del> <a> 5% off </a> <br>
+                Free Delivery 
+                </p>
+            </div>
+        </div>
+
+        <div class="clothset">
+            <div class="cloth-set1">
+               <a href="AnarkaliDupatta1.html"> <img height="400px" width="300px" alt="KurtaSet" src="AnarkaliDupatta1.webp"></a> 
+                <p> Woman's Anarkali Set <br>
+                    <b> &#x20B9; 540 </b> <del>&#x20B9;620</del> <a> 7% off </a> <br>
+                Free Delivery 
+                </p>
+            </div>
+            <div class="cloth-set1">
+               <a href="AnarkaliDupatta2.html"> <img height="400px" width="300px" alt="KurtaSet" src="AnarkaliDupatta2.webp"> </a>
+                <p> Woman's Crepe Anarkali Set <br>
+                <b> &#x20B9; 366 </b> <del>&#x20B9;429</del> <a> 15% off </a> <br>
+                Free Delivery 
+                </p>
+            </div>
+            <div class="cloth-set1">
+               <a href="AnarkaliDupatta3.html"> <img height="400px" width="300px" alt="KurtaSet" src="AnarkaliDupatta3.webp"> </a>
+                <p> Woman's Cotton Anarkali Set <br>
+                    <b> &#x20B9; 580 </b> <del>&#x20B9;623</del> <a> 7% off </a> <br>
+                Free Delivery 
+                </p>
+            </div>
+            <div class="cloth-set1">
+                <a href="AnarkaliDupatta4.html"><img height="400px" width="300px" alt="KurtaSet" src="AnarkaliDupatta4.webp"></a> 
+                <p> Woman's Anarkali Set <br>
+                <b> &#x20B9; 699 </b> <br>
+                Free Delivery 
+                </p>
+            </div>
+            <div class="cloth-set1">
+               <a href="AnarkaliDupatta5.html"> <img height="400px" width="300px" alt="KurtaSet" src="AnarkaliDupatta5.webp"></a> 
+                <p> Woman's Organza Anarkali Set <br>
+                <b> &#x20B9; 532 </b> <br>
+                Free Delivery 
+                </p>
+            </div>
+            <div class="cloth-set1">
+               <a href="AnarkaliDupatta6.html"> <img height="400px" width="300px" alt="KurtaSet" src="AnarkaliDupatta6.webp"> </a>
+                <p> Woman's Party Wear Anarkali Set <br>
+                <b> &#x20B9; 666 </b> <br>
+                Free Delivery 
+                </p>
+            </div>
+            <div class="cloth-set1">
+               <a href="AnarkaliDupatta7.html"> <img height="400px" width="300px" alt="KurtaSet" src="AnarkaliDupatta7.webp"> </a>
+                <p> Woman's Organza Anarkali Set <br>
+                <b> &#x20B9; 670 </b> <br>
+                Free Delivery 
+                </p>
+            </div>
+            <div class="cloth-set1">
+               <a href="AnarkaliDupatta8.html"> <img height="400px" width="300px" alt="KurtaSet" src="AnarkaliDupatta8.webp"> </a>
+                <p> Woman's Party Wear Anarkali Set <br>
+                <b> &#x20B9; 780 </b> <br>
+                Free Delivery 
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

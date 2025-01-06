@@ -17,11 +17,21 @@ import com.example.service.CustomerService;
 public class CustomerController {
 
 	@Autowired
-	private CustomerService customerService;
+	private CustomerService customerService; 
 
 	@GetMapping("/")
 	public String loadCode() {
 		return "Code";
+	}
+	
+	@GetMapping("/clothes")
+	public String allClothes() {
+		return "AllClothes";
+	}
+	
+	@GetMapping("/aboutus")
+	public String aboutUS() {
+		return "AboutUs";
 	}
 	
 	@GetMapping("/register")
@@ -67,8 +77,12 @@ public class CustomerController {
 
 	@PostMapping("/setPwd")
 	@ResponseBody
-	public String setNewForgotPwd(String password1, String password2, Model model) {
+	public String setNewForgotPwd(Customer customer, String password1, String password2, Model model) {
 		if (password1.equals(password2)) {
+			/*
+			 * customer.setPassword1(password1); Customer save =
+			 * customerRepo.save(customer); System.out.println(save + "==========");
+			 */
 			return "matched "; // executing successfully
 		}
 		return "failed...";
