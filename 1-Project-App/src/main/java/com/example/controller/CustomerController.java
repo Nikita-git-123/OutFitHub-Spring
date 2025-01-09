@@ -13,6 +13,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.example.entity.Customer;
 import com.example.service.CustomerService;
 
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpSession;
+
 @Controller
 public class CustomerController {
 
@@ -53,6 +56,12 @@ public class CustomerController {
 		model.addAttribute("login", new Customer());
 		return "Login";
 	}
+	
+	@GetMapping("/logoutPage")
+	public String loadFormforLogout(Customer customer,Model model) {
+		model.addAttribute("logout", new Customer());
+		return "Logout";
+	}
 
 	@PostMapping("/customer")
 	public String handleSubmit(Customer customer, Model model) {
@@ -89,11 +98,20 @@ public class CustomerController {
 	}
 
 	@GetMapping("/login")
-	public String login(@RequestParam String username, @RequestParam String password1) {
+	public String login(HttpServletRequest req, @RequestParam String username, @RequestParam String password1) {
 		Optional<Customer> customer = customerService.findByUsernameAndPassword1(username, password1);
 		if (customer.isPresent()) {
+			HttpSession session = req.getSession(true);
+			session.setAttribute("username", username);
 			return "Code";
 		}
 		return "Login";
+	}
+	
+	@GetMapping("/logout")
+	public String logout(HttpServletRequest req) {
+		HttpSession session = req.getSession(false);
+		session.invalidate();
+		return "Code";
 	}
 }

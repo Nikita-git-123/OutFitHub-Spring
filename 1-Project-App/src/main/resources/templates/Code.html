@@ -4,9 +4,74 @@
 <head>
 	<title> College Project </title>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="Code.css">
-</head>
+	<style>
+		body {
+			margin: 0px;
+		}
 
+		.navBar {
+			height: 70px;
+			background-color: rgb(241, 165, 178);
+			font-weight: bolder;
+			margin: 0px;
+		}
+
+		.navLeft {
+			width: 40%;
+			height: 100px;
+			float: left;
+		}
+
+		.navLeft a {
+			text-decoration: none;
+			color: black;
+			float: right;
+			margin-top: 20px;
+			padding: 0px 32px;
+		}
+
+		.navLeft img {
+			border: 3px solid black;
+			border-radius: 3px;
+		}
+
+		.navRight {
+			width: 40%;
+			float: right;
+			height: 100px;
+			margin-top: 20px;
+		}
+
+		.navRight a {
+			text-decoration: none;
+			color: black;
+			padding: 25px;
+		}
+
+		.navMid {
+			width: 20%;
+			float: left;
+			text-align: center;
+			margin-top: 20px;
+		}
+
+		.navMid button {
+			height: 25px;
+			width: 70px;
+			border-radius: 5px;
+		}
+
+		.BigPhoto {
+			height: 600px;
+			width: 100%;
+		}
+
+		.BigPhoto img {
+			margin: 0px 250px 0px 250px;
+			border: 5px inset goldenrod;
+		}
+	</style>
+</head>
 <body>
 	<div class="navBar">
 		<div class="navLeft">
@@ -18,7 +83,6 @@
 			<a href="/clothes"> Clothes </a>
 		</div>
 		<div class="navMid">
-
 			<form id="formSearch">
 				<input type="search" placeholder="Search Product">
 				<button> <b> Search </b> </button>
@@ -29,6 +93,7 @@
 			<a href="/register"> Register </a>
 			<a href="/loginPage"> Login </a>
 			<a href="#"> View Cart </a>
+			<a href="/logoutPage"> Logout </a>
 		</div>
 	</div>
 	<div class="BigPhoto">
