@@ -37,6 +37,16 @@ public class CustomerController {
 		return "AboutUs";
 	}
 	
+	@GetMapping("/contactus")
+	public String contactUS() {
+		return "ContactUs";
+	}
+	
+	@GetMapping("/kurtaset1")
+	public String kurtaSet1() {
+		return "Clothes/KurtaSet1";
+	}
+	
 	@GetMapping("/register")
 	public String loadForm(Model model) {
 		Customer customerObj = new Customer();
