@@ -21,31 +21,6 @@ public class CustomerController {
 
 	@Autowired
 	private CustomerService customerService; 
-
-	@GetMapping("/")
-	public String loadCode() {
-		return "Code";
-	}
-	
-	@GetMapping("/clothes")
-	public String allClothes() {
-		return "AllClothes";
-	}
-	
-	@GetMapping("/aboutus")
-	public String aboutUS() {
-		return "AboutUs";
-	}
-	
-	@GetMapping("/contactus")
-	public String contactUS() {
-		return "ContactUs";
-	}
-	
-	@GetMapping("/kurtaset1")
-	public String kurtaSet1() {
-		return "Clothes/KurtaSet1";
-	}
 	
 	@GetMapping("/register")
 	public String loadForm(Model model) {
