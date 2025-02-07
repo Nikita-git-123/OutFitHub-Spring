@@ -15,8 +15,6 @@ public class ProductService {
 	private ProductRepository productRepo;
 	
 	public List<Product> searchProducts(String query) {
-		
-		
 		/*
 		 * Product p1 = new Product(); p1.setName("Anarkali");
 		 * 

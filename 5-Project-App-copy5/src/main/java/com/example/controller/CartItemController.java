@@ -21,26 +21,6 @@ public class CartItemController {
 
 	@Autowired
 	private CartItemRepository cartRepository;
-
-	/*
-	 * @GetMapping("/products") public String showProducts(Model model) { // For
-	 * simplicity, assume we have some products model.addAttribute("products",
-	 * List.of( new Product(1L, "Product 1", 100), new Product(2L, "Product 2", 150)
-	 * )); return "products"; // This view displays the products }
-	 */
-	
-	
-	// Show the product page
-    @GetMapping("/anarkali1")
-    public String showProductPage(Model model) {
-        if (productRepository.count() == 0) {
-            productRepository.save(new Product(1L, "Product 1", 100.0));
-            productRepository.save(new Product(2L, "Product 2", 150.0));
-        }
-
-        model.addAttribute("products", productRepository.findAll());
-        return "Clothes/Anarkali1";
-    }
 	
 	 // Add product to cart
     @PostMapping("/addToCart")
