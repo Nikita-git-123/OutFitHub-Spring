@@ -58,7 +58,7 @@ public class CustomerController {
 	}
 
 	@PostMapping("/secQnCustomer")
-	public String handleForgotPwd(String secQn, Model model) {
+	public String handleForgotPwd(@RequestParam String secQn, Model model) {
 
 		boolean isCorrect = customerService.findBySecQn(secQn);
 		model.addAttribute("updatePwd", new Customer());
@@ -70,14 +70,12 @@ public class CustomerController {
 	}
 
 	@PostMapping("/setPwd")
-	@ResponseBody
 	public String setNewForgotPwd(Customer customer, String password1, String password2, Model model) {
 		if (password1.equals(password2)) {
-			/*
-			 * customer.setPassword1(password1); Customer save =
-			 * customerRepo.save(customer); System.out.println(save + "==========");
-			 */
-			return "matched "; // executing successfully
+			 customer.setPassword1(password1);
+			 customerService.saveCustomer(customer);
+			 
+			return "Login "; // executing successfully
 		}
 		return "failed...";
 	}

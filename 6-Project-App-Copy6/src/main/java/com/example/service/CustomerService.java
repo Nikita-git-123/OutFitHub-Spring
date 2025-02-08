@@ -18,17 +18,11 @@ public class CustomerService {
 
 	public boolean saveCustomer(Customer customer) {
 		Customer savedCustomer = customerRepo.save(customer);
-		// System.out.println("Saved ...... " + savedCustomer);
 		return savedCustomer.getId() != null;
 	}
 
 	public boolean findBySecQn(String secQn) {
 		Optional<Customer> bySecQn = customerRepo.findBySecQn(secQn);
-		/*
-		 * if (bySecQn.isPresent()) { customer.setPassword1(secQn); Customer save =
-		 * customerRepo.save(customer); System.out.println("Completed ...... " + save);
-		 * }
-		 */
 		return bySecQn.map(securityQuestion -> securityQuestion.getSecQn().equals(secQn)).orElse(false);
 	}
 	
