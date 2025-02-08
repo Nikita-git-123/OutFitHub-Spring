@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Add To Cart</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+		}
+
+		table {
+			width: 80%;
+			margin: 40px auto;
+			border-collapse: collapse;
+			background-size: cover;
+		}
+
+		th,
+		td {
+			padding: 15px;
+			text-align: center;
+			color: black;
+			border: 3px solid black;
+		}
+
+		th {
+			background-color: pink;
+            font-size: 25px;
+		}
+
+		td {
+			background-color: pink;
+		}
+
+        h2 {
+            color: palevioletred;
+            text-decoration: underline;
+            text-align: center;
+        }
+	</style>
+</head>
+
+<body>
+	<form>
+		<div class="container mt-5 mb-5">
+			<h2>View All Products Here</h2>
+			<table>
+				<thead>
+					<th>Sr. No.</th>
+					<th>Name</th>
+					<th>Price</th>
+					<th>Action</th>
+				</thead>
+				<tbody>
+					<tr th:each="cart : ${carts}">
+						<td th:text="${cart.srNo}"></td>
+						<td th:text="${cart.name}"></td>
+						<td th:text="${cart.price}"></td>
+						<td>
+							<a th:href="@{/deleteCart(srNo=${cart.srNo})}"> Delete </a> <br />
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</form>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -8,7 +8,7 @@ public class EmptyPageRestController {
 
 	@GetMapping("/")
 	public String loadCode() {
-		return "Code";
+		return "CodeLogin";
 	}
 	
 	@GetMapping("/clothes")
