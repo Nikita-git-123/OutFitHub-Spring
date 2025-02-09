@@ -33,26 +33,26 @@ public class AddCartController {
 	@GetMapping("/deleteCart")
 	public String deleteUser(@RequestParam("srNo") Long srNo, Model model) {
 		boolean status = addCartService.deleteUserBySrNo(srNo);
-		return "Code";
+		return "CodeLogin";
 	}
 	 
 	
 	@GetMapping("/anarkaliSubmit1")
     public String anarkali1(AddCart addCart) {
         addCartService.saveAnarkali1(addCart);
-        return "Code";  
+        return "CodeLogin";  
     }
 	
 	@GetMapping("/anarkaliSubmit2")
     public String anarkali2(AddCart addCart) {
         addCartService.saveAnarkali2(addCart);
-        return "Code";  
+        return "CodeLogin";  
     }
 	
 	@GetMapping("/anarkaliSubmit3")
     public String anarkali3(AddCart addCart) {
         addCartService.saveAnarkali3(addCart);
-        return "Code";  
+        return "CodeLogin";  
     }
 	
 	@GetMapping("/anarkaliSubmit4")
