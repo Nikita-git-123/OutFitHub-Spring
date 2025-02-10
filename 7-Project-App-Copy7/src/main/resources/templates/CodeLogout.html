@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title> College Project </title>
+	<meta charset="UTF-8">
+	<style>
+		body {
+			margin: 0px;
+		}
+
+		.navBar {
+			height: 70px;
+			background-color: rgb(241, 165, 178);
+			font-weight: bolder;
+			margin: 0px;
+		}
+
+		.navLeft {
+			width: 40%;
+			height: 100px;
+			float: left;
+		}
+
+		.navLeft a {
+			text-decoration: none;
+			color: black;
+			float: right;
+			margin-top: 20px;
+			padding: 0px 32px;
+		}
+
+		.navLeft img {
+			border: 3px solid black;
+			border-radius: 3px;
+		}
+
+		.navRight {
+			width: 40%;
+			float: right;
+			height: 100px;
+			margin-top: 20px;
+		}
+
+		.navRight a {
+			text-decoration: none;
+			color: black;
+			padding: 37px;
+		}
+
+		.navMid {
+			width: 20%;
+			float: left;
+			text-align: center;
+			margin-top: 20px;
+		}
+
+		.navMid button {
+			height: 25px;
+			width: 70px;
+			border-radius: 5px;
+		}
+
+		.BigPhoto {
+			height: 600px;
+			width: 100%;
+		}
+
+		.BigPhoto img {
+			margin: 0px 250px 0px 250px;
+			border: 5px inset goldenrod;
+		}
+	</style>
+</head>
+<body>
+	<div class="navBar">
+		<div class="navLeft">
+			<img height="66px" width="200px"
+				src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8REhQSEhITFhIUFhUVEhUVEBcYFxcTGREXGRcZFRMZHSkhGB0lHBUZITIhMSkrLi4xFx8zODMsNyguLisBCgoKDg0OGBAQGzcjHyYsLjc3NTcrLS4tNDc3Ny43LS43Mi8rMC4rMi01Nys1NzAwKy0rKy0rLS00Ly0rNS0rK//AABEIAOkA2AMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABQYBBAcDAgj/xABAEAACAgECBAMGBAMFBgcAAAABAgADEQQSBQYhMRNBUQciMmFxgRRSkaEjgrEVJDNCsghicsLh8BZDU2OSo8P/xAAaAQEAAgMBAAAAAAAAAAAAAAAAAwUBBAYC/8QAJhEBAAIBAwQCAQUAAAAAAAAAAAECAwQREgUhMUFRYXETMqGx4f/aAAwDAQACEQMRAD8A7jERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQMNOT6T+1r9QCL+IVaxWtayuyjboERSdidttisMKGBLdS3l06wZWubeOvXt0mlAfXXgite4qTs19v5UUdvU4HnAluA8SGp09d23aXXLLnO1h0ZcjvggiSEpqcz8J4VRXpn1aM1SBdqtvsdgOvurklif6zz0PtFTUKH02h19wPQ7aFUKw+JSzuBkHoesC7RKzVzPqmPXhWuUepbTf08bMnNBrGsGWqsrPo4X+qkiBtREQEREBERAREQEREBERAREQEREBERAREQEwxxMzT4jp7LV2JYawfjdMb9vohPRSfzY6eXXrAqPN/Od6P+E4fQ12rI8hnwwc+8ynoo+bEfIGVejlI1qz8X1xU3HdZpdO7Gy98Hpa6jxLyBjCAbRt6dBJTmnhlfDrqfw6KlOpDVtkbj+IQblLu2WYum7JJJJrkMOI3KTt21k/Ea6kQn6sBu/eR2yRXysNL0++oryrMJfQ8O0dDLa2lr09VZDabRqqG57B8N2rcZwR3VMnb3PXAX75G1j3cY1r4VVOmp8QIoALm1ipOPiON3U9ZHcH0Vl24j16sfXH7yf8AZXoMHXak9fF1BqU+qacbP9e+YpabSk1mmx6fHxid7br/ABESVVkREBERAREQEREBERAT4ttVRlmCj1JAH7z7nG/9pLVFdPpKwcbrbG6H8tYH/PA6vXxbTM4rW+prGztQWKWOAScAH0BP2m7Od8i+y7Q6F6dWrWtqFTPvMNoZ6ire7j0YzU5l9r9FFltek01mp8D/ABrV6VIQcH3sHpnpntA6fPl2wCfScy1ftZVOFV8QNGLbrHqpq35GVzlmbHwjH7iSPJ3FeOWV3XcSppqo8HxKQmNxJBPvAOxHu47+v2gefs0581HFL9Wj1VpXp9oQpuyxLsBkk+iy5cwNqBprjpQDqBW/gg9jZtO395+aOQ/7U/BcQs0VopRBXZqLdxFjBQ+2usgdCclienYdesuun5n1d3K+otttdrkdaltLHeVOorHVx1JAJGe/SB0r2cf2n+CX+0s/id799u7w8+7v29M9/tiTNHGtI9hpS+prR3QWKW/TM4bqeY79LyzpVR3F2ssvUvuO4J49gb3u/UKB95D+0Dlqvgy8L1GnZxqHV7LWLHrYnhMCB5f4hGPlA77xXmzQaa5dPfeiXONwU5+HDdSfIe6evykXy37SOGa/UHTUWMbACVLVlVcDvsJ/6TmftC0Sa3mTSUOMoyadbB6rl3YH7GffCeH0pzYUorSuurcQlahVH91wcKOg6tmB0f2t0E8NtsHx6dq9QnyNbjd+qlh95QbXDYYdmVWH0IzL57YOILTwnU572qKUHmXsbHT16ZP2M57p6diV1n/JXWh+yAGQZvS+6HM8rx67LHwrX+FpmCjNwz4SfnsY4rA/mxOgct8JGk01OnBz4SKrN+Z8Zdj9WJP3nLhxA6V6tQE3pS4a1AuSaipVmQfmXO77ETrui1dd1aW1MHrdQyMpyGUjIIM9YvDU6r2zPeIiSqwiIgIiICIiAiIgIiICcM/2jQbL+H0jufGx9XepR/pnc5yb2n8sa7W8V0FlNDPRT4ZtfICj+8bm7nr7ogeWp4FxPhWi1+r1HEG1DHTGuoAvhGd1UMATjIyPKVnhNNem5U1Foxv1VpDHzOLRWq/QbCf5jO4cycHTWaW7SucLcjJn8p8iB8iAftOTcJ9jWuOnt02q1qeECzaausuyLa2AbXUhf8o+HqMkn6ht8G5ETifL+kq3+Hapa6p8ZG5iwKsPynP1yB9JF8h82aw6Hiui1Dbzo9Lf4T5yRtrdNhbzGQMGXLWezI26PSaU665Pwquu+pdniByM7lyT2GO/mZJcv+zjh+j0t2lQOy6hdt9jN/Ede2Mge6O/Qepgcu5C9zlrilnYs7oPtTUP+YzVufw+U0HbxtXj64dm/wDzna+G8lcPo0raJKc6Z2LujOzbmOM5Ocn4R+k2jwXh9NC1NTQunrO5UdFKK3XqA3QHqevzgcY5w5dvfl/hltKM/gILLFUEkJYC27A8gSM+k+q3u5l1mhK6d69Ho0Xx3ce6WypcKexzsUY74yZ3XTW0+GDWU8ID3SmNgUDyx0AGJB6HnvhV9q016uprGOEGThj6KxGGPyBgUZ+WddZzONYaG/CVnAtJXb00RAwM5P8AEOO03+XOTNbXx3U8RtVBp38UV++CxztCnb6YUzpsQOKe1PiZ1nFdNoFOatN/GtHrZjIz9Fx/8j6zyuOWP1MiuC5u4nxPUt1PjPUh+QsI/wBNa/rN3XajYpPck7UHq7HCj9f2Bmtlne2zp+kUimGbz7SWkfIx6f0kp7OOLHT6x+Hk/wAC5Xu0wz8FikeLWv8AukHcB5YPrIPSvtPX06/WefBWJ4tw4D4t1zH/AIfCOYxeTq1KzimZ9O5xETZcwREQEREBERAREQEREBERAREQKVzHxjW3a5eG6GxKHWn8RqNQ1Ycqm8Kq1o3ukknuQZrc66jXaPhlatqmfUtqKa2vVFrYq+o7BUAA9z3ftPbnfgeqS9OKaAr+JprNd1L/AA36fO4rnyYYyP8Ap1g+duMrxPQcMehjWdXrNOFJAY12LYVbK9NxVgenTOIE77T9Q6poK0Zh4uv01bbWIJXcWbJHlhTNTU6dOK8WuovG/R8PrrzSQdlmqt94Fx2cKg7epEiuOcD1NOv4Uuo192qNmpdgr1oiL4dJOVVRnPXHfzk57Pj/AH3jAb4/xgP8hqGz9oEJwl10FvHtJUNun09P4mlMkhN+kLsEHkM56TQ41pq//D/D9OoX8Zd+GGlAx4ni71LOuOuFUnJ8s/OffEbN45l1gPuNWNKp8ia9MK2wfqf3lz5I5N0OlrpvSrN7U15sd2dhlASELk7Bk9hgQLavYTMEgfSUTmP2lUVWfhdDW2t1p6LXV8CntmywdAB6D9R3gc24VqKtL+PstYKv43UAk9yQ+MAeZ6HpPLhgsvf8RYpVRn8PWe4U93YfmI/QGffD+W7Tqr7dfg3rczGlf8JLHC2FgP8AMffH6ecntclYA29/Pr5fOa2SY3nZ1HT62tSnLx6+/uUdfZgqPUj9JJcgUhtffrn/AMHRVeAnz1FpG4A+ZCnGPVxK/a9juoqXfa7BKU/M5+EfTzPoAZdxo00zcP4RWQ7eMt+tf87IGuY/dlB+yz1ijbuh6vk5bY4/MuoCZiJO50iIgIiICIiAiIgIiICIiAmDMxAqHMHMHEFezT6bhl1rEbarzZWtJyvxEk5AGT0+UidJyNqKquE0go34TUNqdU27ALtuY7Bjr7z4HyE6JiMQK9xvl59RrtDqt6hNJ45KkHLNYqKMeQwFP6zR4zySbNU+r02ru0tlyCvU+EFItUfCSGBw4HQN3HlLgZHarh9tvRtRYi/lpCpn6uQzfoRAhdbwHhem4c2iusWrSsP4rPcFZyXDMzWHuzN5/aaLc7F1FXDNFqNUVAVXKGmgYGBm23Ge3kJYNLytoa2FngK9gziy0m2zr3/iWEnHyzJgKB0HaBzuzk3inEDnimt2Unr+E0hKpj0stPV/6ZHSSNP9ncMB02kpWs9N7KuTn/fc9WOP0zLk7AAk9h1P0lOp0+g4hezI9gYYLrgAOB0yCRPNpn02tLSkzNskTxj4a9mhRjYWAJsIbPnnYq5z/KJQOLWbSV+5+k6jzNw41ad3qLErjI6fB54x/wB9JUKuFU6YDWa0ZPemjzscdtw9B3+wz6SG1Z3XOk1Va0ma99+0Q8+BadeHU/jr1/vNgK6Oo91Ujq7DyJ/YYHcmfXsx0738Qu1NhLGmogsfO69wSQfUJWRj0cStca4tZqLGuuYdj/wog8h8hOney3hhp0K2MMWaljewI6hWAFYP0QLPdO89vDX10fpYp5fvvPf8fC4xESVSEREBERAREQEREBERAREQEREBERATBmYMCI4xx+rTMquGJYZ90DoucZOTJWtwwBHYgEfQzS4hwmi8qbEDFexyR0z2OO4+U3VGBiYjfdJacfGvHz7GUEEHsehkXwnl/TaVmepSGbp1bOB6D0E39Xqq6lL2OqIOpZjgD7mc75m9oTNmvSZA7G0jr/Ip7fUzFpiO8p9LhzZt6Y/E+fhZeaubaNGpQe/ceyA9vm58h+85LxPiNuosNtrbmP6KPyqPISO12vrTLW2AE9SWbLE/1Yzb4Dy/xHiZA09bUaY/FqrV25H/ALKHqx+fbv1Einldc440+hrvM72/n/Hpy5wc8S1a6YdaKytmsby2Z6VZ9WIwflmfoBVA6Dp6SG5T5Z03DqBRQDjO6x26vY57s58z/STUmrG0KLU6i2fJN7MxETKAiIgIiICIiAiIgIiICIiAiIgIiICIiB8ucDJ7DvKnxvm61cpo9FqdTZ6+Ea6h899mN32lumIZidpcc13A+Y9ewa2qusZ6C28YX6VJ0/c/WbWi9kmpfrquIEDzTTUhf/scn/TOsxMcYTzqssxx5bR9dv6VLgXs34VpCHWjxLP/AFLmNjZ9fe6D7AS2quOg7TMTLX3IiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiJgtAzE19LrEsLhf/Lco2envAAnHy94TGp19Ved7hcI9hz+RMbj9siBsxPhbAeoI69ftPi/Uois7MAqqWY+igZJge0T5Dg9j8/tPFNYhsaofEqq59MMWAwf5TA2InyW/7zG8eo/WB9RMAzWt4hSti0s6ixlZ1TPUovdvkPnA2okSOZNGU3iwkZAwKrCxypYFUC7mUqpbcARgE5wJtrxKgulYsUu9ZtQA96xty2fT3h+sDbiRtnHdKoRjZ0fO07HI2hgpYkD3UyR75wvUdesw3HtPl1BdmT4glFrk+9tJQIh3gN0JGQD3xAk4mhpOL0WhCjE+Jv2Ao6sdhIclWAKgEYyQPL1E9tBr6r131OHQMy7lORuU4YA+eCIGzERAREQEREBERAREQEiuY+HtqKdirWzbgy+IxCgjsThW3Y77SMH5d5Kz5gVTWcq2OXcGoWO1pZsEbg1VYRWwO2+sHHXHlmeep5Vtt8RrF02+1NWpPVvD8YJsKEpltpU/l+LI9JcIECoWcrWMzNtqUtWVXbc4FR8EpsVAgDJkk56d/hJ6z11vK27xUrShK7NM1PUZO4phfc2e4A3vZB6+mestMyIFP1XK1z78eDVuyRYhbeg8AV+Co2rmrPvZyO/wg9Zs08v2i5LwtFezYPARmNRANm4/APeG8Mp29CMeeZZ4ECt8T4Fdc9rYpBuqCByzF6WCMCtfujcjE9TlT375GNM8pO7FmWhch9ta5KVFrKD/AAztHQipsnA6v2lvMCBF8O4QEqNTHCi97axWzKFU3mxF6Y6DIBXt3HaefGuH3XWIFWvwtrrYxtZbMOjIdqisg4DZGWHU+XeTMQKueC6sq278OzNVXp2TfYqmutbMOLAuUYmzO3BGBjd5zzs5TuwQNU5LVWI5ZEGS1aKApVdyp7nbdkZ6HvLZBgVWvldmVQ5CjedyJdYwXT4Q+ArMBvUsmTkDG4gCbX9l6vxLbN1Ss1ZqQqX94GzIdlI9xlXPugkEnJI8rBMQK5by64vreplVEFKg73DJXUSWrFYG11szgkkYznB6YkeBae+sWC1Kl3WM6+Haz9GPY7q1xjHz+0kxAgZiIgIiICIiB//Z"
+				alt="Shoping Image">
+			<a href="/contactus"> Contact Us </a>
+			<a href="/aboutus"> About Us </a>
+			<a href="/clothes"> Clothes </a>
+		</div>
+		<div class="navMid">
+			<form action="/search" id="formSearch">
+				<input type="search" name="query" placeholder="Search Product">
+				<button> <b> Search </b> </button>
+			</form>
+		</div>
+		<div class="navRight">
+			<a href="/secqn"> Forgot Password </a>
+			<a href="/register"> Register </a>
+			<!-- <a href="/loginPage"> Login </a> -->
+			<a href="/cart"> View Cart </a>
+			<a href="/logoutPage"> Logout </a>
+		</div>
+	</div>
+	<div class="BigPhoto">
+		<img width="1000px" height="500px"
+			src="https://static.wixstatic.com/media/3f3442_51a3e8cef54542918072348ce1abfce8~mv2.jpg/v1/fill/w_544,h_306,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/3f3442_51a3e8cef54542918072348ce1abfce8~mv2.jpg"
+			alt="Image Of Women">
+	</div>
+</body>
+
+</html>

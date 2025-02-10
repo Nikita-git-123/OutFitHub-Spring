@@ -4508,3 +4508,320 @@
 2025-02-09 20:07:09,717 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-02-09 20:07:09,725 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-02-09 20:07:09,731 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 10:52:40,634 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-02-10 10:53:32,385 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 10:53:32,419 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 10:53:32,467 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 10:53:45,575 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-10 10:53:45,591 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 10:53:45,597 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 10:53:50,654 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-10 10:53:50,670 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 10:53:50,678 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 13:35:31,937 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-02-10 13:50:47,373 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-02-10 14:05:22,295 [Worker-30: Launching 6-Project-App-Copy6 - Application] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 14:05:22,337 [Worker-30: Launching 6-Project-App-Copy6 - Application] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 14:05:22,432 [Worker-30: Launching 6-Project-App-Copy6 - Application] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 14:05:33,901 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 14:05:33,982 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 44 resources from src\main\resources to target\classes
+2025-02-10 14:05:34,204 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\1-Project-App\src\test\resources
+2025-02-10 14:05:37,419 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 14:05:37,488 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-02-10 14:05:37,578 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\2-Project-App-copy1\src\test\resources
+2025-02-10 14:05:40,461 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 14:05:40,503 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 9 resources from src\main\resources to target\classes
+2025-02-10 14:05:40,565 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\3-Project-App-Copy3\src\test\resources
+2025-02-10 14:05:43,903 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 14:05:43,959 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 10 resources from src\main\resources to target\classes
+2025-02-10 14:05:44,072 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\4-Project-App-Copy4\src\test\resources
+2025-02-10 14:05:47,445 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 14:05:47,490 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 45 resources from src\main\resources to target\classes
+2025-02-10 14:05:48,408 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\5-Project-App-copy5\src\test\resources
+2025-02-10 14:05:51,787 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 14:05:51,824 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 52 resources from src\main\resources to target\classes
+2025-02-10 14:05:52,214 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\Main-Project\src\test\resources
+2025-02-10 19:04:08,018 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-02-10 19:05:14,928 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:05:14,963 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:05:15,001 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:05:23,237 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:05:23,256 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:05:23,295 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:06:59,997 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:07:00,009 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:07:00,051 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:07:16,055 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:07:16,079 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:07:16,140 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:13:39,664 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:13:39,679 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:13:39,696 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:13:59,830 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:13:59,841 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:13:59,865 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:15:14,064 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:15:14,078 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:15:14,145 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:15:25,100 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:15:25,111 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:15:25,127 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:15:28,522 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:15:28,535 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:15:28,561 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:16:57,895 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:16:57,908 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:16:57,934 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:17:19,398 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:17:19,410 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:17:19,435 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:21:10,593 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:21:10,599 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:21:10,612 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:21:14,738 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:21:14,784 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:21:14,809 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:21:33,647 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:21:33,654 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:21:33,674 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:22:04,133 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:22:04,148 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:22:04,168 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:22:12,075 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:22:12,086 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:22:12,105 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:22:24,318 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:22:24,327 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:22:24,345 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:22:48,115 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:22:48,126 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:22:48,147 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:23:11,138 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:23:11,149 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:23:11,174 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:23:29,104 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:23:29,112 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:23:29,124 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:23:39,847 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:23:39,870 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:23:39,888 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:27:00,204 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:27:00,215 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:27:00,239 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:27:19,315 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:27:19,327 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:27:19,346 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:28:37,761 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:28:37,768 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:28:37,784 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:28:55,138 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:28:55,148 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:28:55,170 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:30:00,482 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:30:00,491 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:30:00,510 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:33:10,325 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:33:10,338 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:33:10,352 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:34:23,489 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:34:23,498 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:34:23,513 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:34:36,234 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:34:36,245 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:34:36,265 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:45:52,995 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:45:53,006 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:45:53,019 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:46:04,145 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:46:04,154 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:46:04,174 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:48:32,718 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:48:32,724 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:48:32,738 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:48:46,653 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:48:46,664 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:48:46,686 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:51:52,782 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:51:52,793 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:51:52,814 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:52:03,362 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:52:03,374 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:52:03,398 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:52:27,708 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:52:27,719 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:52:27,740 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:58:14,575 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:58:14,582 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:58:14,592 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:58:37,905 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:58:37,913 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 19:58:37,931 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 19:59:11,648 [Worker-40: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:1-Project-App:0.0.1-SNAPSHOT @ C:\Users\Admin\Desktop\ProjectClgSB\7-Project-App-Copy7\pom.xml.
+2025-02-10 19:59:12,655 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:59:12,676 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 52 resources from src\main\resources to target\classes
+2025-02-10 19:59:12,779 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\7-Project-App-Copy7\src\test\resources
+2025-02-10 19:59:14,318 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 19:59:14,321 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 52 resources from src\main\resources to target\classes
+2025-02-10 19:59:14,426 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\7-Project-App-Copy7\src\test\resources
+2025-02-10 20:00:52,076 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:00:52,085 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:00:52,106 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:03:58,218 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:03:58,227 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:03:58,243 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:04:14,344 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:04:14,357 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:04:14,378 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:07:52,403 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:07:52,414 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:07:52,437 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:08:20,641 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:08:20,651 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:08:20,673 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:08:24,899 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:08:24,908 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:08:24,921 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:08:33,919 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:08:33,929 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:08:33,950 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:09:09,036 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:09:09,046 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:09:09,070 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:11:25,701 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:11:25,713 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:11:25,730 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:11:50,986 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:11:50,994 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:11:51,007 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:12:07,685 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:12:07,727 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:12:07,751 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:13:12,727 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:13:12,736 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:13:12,748 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:14:11,327 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:14:11,335 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:14:11,348 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:14:25,669 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:14:25,680 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:14:25,701 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:14:42,426 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:14:42,434 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:14:42,448 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:15:01,281 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:15:01,290 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:15:01,310 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:15:12,198 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:15:12,207 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:15:12,222 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:15:51,194 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:15:51,204 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:15:51,226 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:18:46,385 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:18:46,393 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:18:46,408 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:19:32,046 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:19:32,057 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:19:32,085 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:20:03,577 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:20:03,587 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:20:03,603 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:20:07,723 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:20:07,730 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:20:07,742 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:20:16,122 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:20:16,130 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:20:16,144 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:21:23,944 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:21:23,949 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:21:23,963 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:22:12,857 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:22:12,867 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:22:12,907 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:27:10,106 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:27:10,126 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:27:10,144 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:27:40,128 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:27:40,169 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:27:40,191 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:29:07,116 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:29:07,129 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:29:07,139 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:34:20,810 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:34:20,821 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:34:20,841 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:45:59,274 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:45:59,286 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:45:59,310 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:46:50,696 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:46:50,707 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:46:50,720 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:47:58,902 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:47:58,912 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:47:58,932 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:48:10,322 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:48:10,330 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:48:10,343 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:48:57,538 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:48:57,546 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:48:57,558 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:49:20,716 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:49:20,722 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:49:20,735 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:49:56,491 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:49:56,502 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:49:56,535 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:50:59,508 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:50:59,516 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:50:59,529 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:52:14,732 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:52:14,742 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:52:14,763 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:53:15,321 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:53:15,329 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:53:15,343 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:54:41,442 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:54:41,452 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:54:41,471 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:55:13,944 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:55:13,955 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:55:13,976 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:55:27,631 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:55:27,640 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:55:27,667 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:56:21,856 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:56:21,862 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:56:21,873 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:56:29,617 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:56:29,629 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:56:29,647 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:56:42,702 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:56:42,709 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:56:42,721 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 20:56:52,703 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 20:56:52,725 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 20:56:52,744 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 21:00:09,177 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 21:00:09,187 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 21:00:09,210 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 21:00:49,879 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 21:00:49,889 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 21:00:49,910 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 21:02:43,589 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-10 21:02:43,600 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 21:02:43,607 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 21:03:20,116 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-10 21:03:20,125 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 21:03:20,131 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 21:03:46,321 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 21:03:46,331 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 21:03:46,351 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 21:04:34,173 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 21:04:34,183 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 21:04:34,199 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 21:05:50,449 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-10 21:05:50,455 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 21:05:50,460 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources
+2025-02-10 21:08:41,965 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-10 21:08:41,977 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 53 resources from src\main\resources to target\classes
+2025-02-10 21:08:41,990 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Admin\Desktop\ProjectClgSB\6-Project-App-Copy6\src\test\resources

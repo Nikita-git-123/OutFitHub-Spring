@@ -11,22 +11,26 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.example.entity.AddCart;
 import com.example.service.AddCartServiceImpl;
 
+import jakarta.servlet.http.HttpSession;
+
 @Controller
 public class AddCartController {
 	
 	@Autowired
 	private AddCartServiceImpl addCartService;
-
-	/*
-	 * @GetMapping("/cart") public String loadForm(Model model) {
-	 * model.addAttribute("cart", new AddCart()); return "AddToCart"; }
-	 */
 	
 	@GetMapping("/cart")
-	public String getCartProducts(Model model) {
-		List<AddCart> allCarts = addCartService.getAllProducts();
-		model.addAttribute("cart", new AddCart());
-		model.addAttribute("carts", allCarts);
+	public String getCartProducts(HttpSession session, Model model) {
+		String username = (String) session.getAttribute("username");
+		if(username == null) {
+			return "Code";
+		} 
+		else {
+			List<AddCart> allCarts = addCartService.getAllProducts(username);
+			model.addAttribute("cart", new AddCart());
+			model.addAttribute("carts", allCarts);
+		}
+		
 		return "AddToCart";
 	}
 	
@@ -38,7 +42,11 @@ public class AddCartController {
 	 
 	
 	@GetMapping("/anarkaliSubmit1")
-    public String anarkali1(AddCart addCart) {
+    public String anarkali1(AddCart addCart, HttpSession session) {
+		String username = (String)session.getAttribute("username");
+		if(username == null) {
+			return "Login";
+		}
         addCartService.saveAnarkali1(addCart);
         return "CodeLogin";  
     }
@@ -122,7 +130,11 @@ public class AddCartController {
     }
 	
 	@GetMapping("/cordSetSubmit1")
-    public String cordSet1(AddCart addCart) {
+    public String cordSet1(HttpSession session, AddCart addCart) {
+		String username = (String) session.getAttribute("username");
+		if(username == null) {
+			return "Login";
+		}
         addCartService.saveCordSet1(addCart);
         return "Code";  
     }

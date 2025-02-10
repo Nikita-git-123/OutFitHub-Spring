@@ -1,12 +1,15 @@
 package com.example.service;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.example.entity.AddCart;
+import com.example.entity.Customer;
 import com.example.repo.AddCartRepo;
+import com.example.repo.CustomerRepo;
 
 @Service
 public class AddCartServiceImpl {
@@ -14,8 +17,10 @@ public class AddCartServiceImpl {
 	@Autowired
 	private AddCartRepo addCartRepo;
 	
-	 public List<AddCart> getAllProducts() {
-	        return addCartRepo.findAll();
+	 public List<AddCart> getAllProducts(String username) {
+	         List<AddCart> byCustomerUsername = addCartRepo.findByCustomerUsername(username);
+	         System.out.println("Cart items for user: " + username + " -> " + byCustomerUsername);
+	         return byCustomerUsername;
 	 }
 	 
 	 public boolean deleteUserBySrNo(Long srNo) {
@@ -23,7 +28,7 @@ public class AddCartServiceImpl {
 		 return true;
 	}
 
-	public void saveAnarkali1(AddCart user) {
+	public void saveAnarkali1(AddCart addCart) {
 		AddCart anarkali1 = new AddCart();
 		anarkali1.setName("Woman's Anarkali Set");
 		anarkali1.setPrice(314.00);

@@ -91,6 +91,7 @@ public class ClothesController {
 		return "Clothes/KurtaDupatta5";
 	}
 	
+	
 	@GetMapping("/kurtadupatta6")
 	public String kurtaDupatta6() {
 		return "Clothes/KurtaDupatta6";
