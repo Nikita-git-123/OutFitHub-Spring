@@ -26,27 +26,28 @@ public class BuyNowService {
 	@Autowired
 	private CustomerRepo customerRepo;
 	
-	public ResponseEntity<InputStreamResource> pdfAnarkali1(@RequestParam String address, String username) throws Exception {
-		Customer customer = customerRepo.findByUsername(username);
-
-		ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
-		Document document = new Document();
-		PdfWriter.getInstance(document, byteArrayOutputStream);
-
-		document.open();
-		document.add(new Paragraph("Product Details"));
-		document.add(new Paragraph("Product Name:  Woman's Anarkali Set" ));
-        document.add(new Paragraph("Price: $314 " ));
-		document.add(new Paragraph("Shipping Address: " + address));
-		document.close();
-
-		ByteArrayInputStream bis = new ByteArrayInputStream(byteArrayOutputStream.toByteArray());
-
-		InputStreamResource resource = new InputStreamResource(bis);
-
-		return ResponseEntity.ok().header("Content-Disposition", "attachment;filename=Bill.pdf")
-				.contentType(org.springframework.http.MediaType.APPLICATION_PDF)
-				.contentLength(byteArrayOutputStream.size()).body(resource);
-	}
-
+	/*
+	 * public ResponseEntity<InputStreamResource> pdfAnarkali1(@RequestParam String
+	 * address, String username) throws Exception { Customer customer =
+	 * customerRepo.findByUsername(username);
+	 * 
+	 * ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+	 * Document document = new Document(); PdfWriter.getInstance(document,
+	 * byteArrayOutputStream);
+	 * 
+	 * document.open(); document.add(new Paragraph("Product Details"));
+	 * document.add(new Paragraph("Product Name:  Woman's Anarkali Set" ));
+	 * document.add(new Paragraph("Price: $314 " )); document.add(new
+	 * Paragraph("Shipping Address: " + address)); document.close();
+	 * 
+	 * ByteArrayInputStream bis = new
+	 * ByteArrayInputStream(byteArrayOutputStream.toByteArray());
+	 * 
+	 * InputStreamResource resource = new InputStreamResource(bis);
+	 * 
+	 * return ResponseEntity.ok().header("Content-Disposition",
+	 * "attachment;filename=Bill.pdf")
+	 * .contentType(org.springframework.http.MediaType.APPLICATION_PDF)
+	 * .contentLength(byteArrayOutputStream.size()).body(resource); }
+	 */
 }
