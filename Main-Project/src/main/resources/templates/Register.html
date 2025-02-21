@@ -112,6 +112,7 @@
     <body>
         <div class="RegisterDiv">
             <form th:action="@{/customer}" th:object="${customer}" method="post">
+				<p style="color: black;font-weight: bold; text-align: center;font-size: 25px;" th:text="${smsg}"> </p>
                 <h1> Register </h1>
                 <div class="Register-input">
                     <input type="text" th:field="*{name}" placeholder="Name" maxlength="25" name="Uname" required >

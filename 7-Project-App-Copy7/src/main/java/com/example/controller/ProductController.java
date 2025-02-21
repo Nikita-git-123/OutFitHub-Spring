@@ -18,7 +18,7 @@ public class ProductController {
 	private ProductService productService;
 
 	@GetMapping("/search")
-	public String search(@RequestParam("query") String query, Model model) {
+	public String search(@RequestParam String query, Model model) {
 
 		List<Product> products = productService.searchProducts(query);
 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title> Kurta Description </title>
 	<meta charset="UTF-8">
@@ -77,16 +78,20 @@
 
 <body>
 	<div class="clothset">
+		<p style="color: green;font-weight: bold; text-align: center;font-size: 25px;" th:text="${smsg}"> </p>
+		<p style="color: red;font-weight: bold; text-align: center;font-size: 25px;" th:text="${emsg}"> </p>
 		<div class="cloth-set1-left">
 			<div class="clothimg">
 				<img height="500px" width="450px" alt="KurtaSet"
 					src="https://images.meesho.com/images/products/228024038/29qnl_400.webp"> <br> <br>
 			</div>
 			<div class="clothbuttons">
-				<form action="/anarkaliSubmit1">
+				<form action="/anarkaliSubmit1" >
+					<!--<input type="hidden" name="productName" value="Woman's Anarkali Set">
+					<input type="hidden" name="productPrice" value="284">-->
 					<button type="submit" class="btn"> Add To Cart </button>
 				</form>
-				<form action="#">
+				<form action="/codPage" >
 					<button type="submit" class="btn"> Buy Now </button>
 				</form>
 			</div>
@@ -132,24 +137,6 @@
 			</p>
 		</div>
 	</div>
-
-	<script>
-		// Function to update the selected size
-		function selectSize(size) {
-			document.getElementById("selectedSize").value = size;
-			// Optional: Highlight the selected size button
-			let buttons = document.querySelectorAll(".selectSize .btn");
-			buttons.forEach(button => {
-				if (button.value === size) {
-					button.style.backgroundColor = "rgb(139, 139, 244)";
-					button.style.color = "white";
-				} else {
-					button.style.backgroundColor = "";
-					button.style.color = "black";
-				}
-			});
-		}
-	</script>
 </body>
 
 </html>

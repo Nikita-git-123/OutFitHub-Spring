@@ -53,8 +53,8 @@ public class CustomerController {
 		boolean savedCustomer = customerService.saveCustomer(customer);
 		model.addAttribute("login", new Customer());
 		if (savedCustomer)
-			return "Login";
-		return "Registration";
+			model.addAttribute("smsg", "User Registered Successfully....");
+		return "Register";
 	}
 
 	@PostMapping("/secQnCustomer")
@@ -80,13 +80,13 @@ public class CustomerController {
 		return "failed...";
 	}
 
-	@GetMapping("/login")
+	@PostMapping("/login")
 	public String login(HttpServletRequest req, @RequestParam String username, @RequestParam String password1) {
 		Optional<Customer> customer = customerService.findByUsernameAndPassword1(username, password1);
 		if (customer.isPresent()) {
-			HttpSession session = req.getSession(true);
+			HttpSession session = req.getSession();
 			session.setAttribute("username", username);
-			return "Code";
+			return "CodeLogout";
 		}
 		return "Login";
 	}
