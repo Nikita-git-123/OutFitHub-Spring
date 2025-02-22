@@ -24,6 +24,7 @@ public class AddCart {
 	private Long srNo;
 	private String name;
 	private Double price;
+	private String url;
 
 	@ManyToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name = "customer_id") // Foreign key in AddToCart table to reference Customer

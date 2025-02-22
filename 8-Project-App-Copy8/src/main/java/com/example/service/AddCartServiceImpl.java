@@ -18,25 +18,12 @@ public class AddCartServiceImpl {
 
 	@Autowired
 	private CustomerRepo customerRepo;
-	
+
 	public List<AddCart> getProducts(String username) {
 		List<AddCart> byCustomerUsername = addCartRepo.findByCustomerUsername(username);
 		System.out.println("Cart items for user: " + username + " -> " + byCustomerUsername);
 		return byCustomerUsername;
 	}
-
-	/*
-	 * public List<AddCart> getAllProducts(String username) {
-	 * 
-	 * List<AddCart> byCustomerUsername =
-	 * addCartRepo.findByCustomerUsername(username);
-	 * System.out.println("Cart items for user: " + username + " -> " +
-	 * byCustomerUsername); return byCustomerUsername;
-	 * 
-	 * Customer customer = customerRepo.findByUsername(username);
-	 * System.out.println("Cart items for user: " + username + " -> " + customer);
-	 * return addCartRepo.findByCustomer(customer); }
-	 */
 
 	public boolean deleteUserBySrNo(Long srNo) {
 		addCartRepo.deleteById(srNo);
@@ -49,6 +36,7 @@ public class AddCartServiceImpl {
 			AddCart anarkali1 = new AddCart();
 			anarkali1.setName("Woman's Anarkali Set");
 			anarkali1.setPrice(314.00);
+			anarkali1.setUrl("/anarkali1");
 			anarkali1.setCustomer(customer); // Associate this cart item with the user
 			addCartRepo.save(anarkali1);
 		} else {
@@ -62,6 +50,7 @@ public class AddCartServiceImpl {
 			AddCart anarkali1 = new AddCart();
 			anarkali1.setName("Woman's Crepe Anarkali Set");
 			anarkali1.setPrice(429.00);
+			anarkali1.setUrl("/anarkali2");
 			anarkali1.setCustomer(customer); // Associate this cart item with the user
 			addCartRepo.save(anarkali1);
 		} else {
@@ -75,6 +64,7 @@ public class AddCartServiceImpl {
 			AddCart anarkali1 = new AddCart();
 			anarkali1.setName("Woman's Anarkali Set");
 			anarkali1.setPrice(623.00);
+			anarkali1.setUrl("/anarkali3");
 			anarkali1.setCustomer(customer); // Associate this cart item with the user
 			addCartRepo.save(anarkali1);
 		} else {
@@ -88,6 +78,7 @@ public class AddCartServiceImpl {
 			AddCart anarkali1 = new AddCart();
 			anarkali1.setName("Woman's Anarkali Set");
 			anarkali1.setPrice(899.00);
+			anarkali1.setUrl("/anarkali4");
 			anarkali1.setCustomer(customer); // Associate this cart item with the user
 			addCartRepo.save(anarkali1);
 		} else {
@@ -101,6 +92,7 @@ public class AddCartServiceImpl {
 			AddCart anarkali1 = new AddCart();
 			anarkali1.setName("Woman's Cotton Anarkali Set");
 			anarkali1.setPrice(532.00);
+			anarkali1.setUrl("/anarkali5");
 			anarkali1.setCustomer(customer); // Associate this cart item with the user
 			addCartRepo.save(anarkali1);
 		} else {
@@ -114,13 +106,14 @@ public class AddCartServiceImpl {
 			AddCart anarkali1 = new AddCart();
 			anarkali1.setName("Woman's Anarkali Set");
 			anarkali1.setPrice(490.00);
+			anarkali1.setUrl("/anarkali6");
 			anarkali1.setCustomer(customer); // Associate this cart item with the user
 			addCartRepo.save(anarkali1);
 		} else {
 			throw new RuntimeException("User not found");
 		}
 	}
-	
+
 	public void saveAnarkaliDupatta1(String username, AddCart addCart) {
 		Customer customer = customerRepo.findByUsername(username);
 		if (customer != null) {
@@ -133,7 +126,7 @@ public class AddCartServiceImpl {
 			throw new RuntimeException("User not found");
 		}
 	}
-	
+
 	public void saveAnarkaliDupatta2(String username, AddCart addCart) {
 		Customer customer = customerRepo.findByUsername(username);
 		if (customer != null) {
@@ -224,7 +217,7 @@ public class AddCartServiceImpl {
 			throw new RuntimeException("User not found");
 		}
 	}
-	
+
 	public void saveCordSet1(String username, AddCart addCart) {
 		Customer customer = customerRepo.findByUsername(username);
 		if (customer != null) {
@@ -237,7 +230,7 @@ public class AddCartServiceImpl {
 			throw new RuntimeException("User not found");
 		}
 	}
-	
+
 	public void saveCordSet2(String username, AddCart addCart) {
 		Customer customer = customerRepo.findByUsername(username);
 		if (customer != null) {
@@ -302,7 +295,7 @@ public class AddCartServiceImpl {
 			throw new RuntimeException("User not found");
 		}
 	}
-	
+
 	public void saveKurtaDupatta1(String username, AddCart addCart) {
 		Customer customer = customerRepo.findByUsername(username);
 		if (customer != null) {
@@ -354,7 +347,7 @@ public class AddCartServiceImpl {
 			throw new RuntimeException("User not found");
 		}
 	}
-	
+
 	public void saveKurtaDupatta5(String username, AddCart addCart) {
 		Customer customer = customerRepo.findByUsername(username);
 		if (customer != null) {
@@ -380,7 +373,7 @@ public class AddCartServiceImpl {
 			throw new RuntimeException("User not found");
 		}
 	}
-	
+
 	public void saveKurtaSet1(String username, AddCart addCart) {
 		Customer customer = customerRepo.findByUsername(username);
 		if (customer != null) {
@@ -458,4 +451,5 @@ public class AddCartServiceImpl {
 			throw new RuntimeException("User not found");
 		}
 	}
+
 }

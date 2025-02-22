@@ -29,24 +29,24 @@
 
 		th {
 			background-color: pink;
-            font-size: 25px;
+			font-size: 25px;
 		}
 
 		td {
 			background-color: pink;
 		}
 
-        h2 {
-            color: palevioletred;
-            text-decoration: underline;
-            text-align: center;
-        }
+		h2 {
+			color: palevioletred;
+			text-decoration: underline;
+			text-align: center;
+		}
 	</style>
 </head>
 
 <body>
 	<form>
-		<p style="color: red;" th:text="${emsg}"> </p>
+		<p style="color: black; text-align: center; font-size: 25px;" th:text="${emsg}"> </p>
 		<div class="container mt-5 mb-5">
 			<h2>View All Products Here</h2>
 			<table>
@@ -54,6 +54,7 @@
 					<th>Sr. No.</th>
 					<th>Name</th>
 					<th>Price</th>
+					<th> View Product </th>
 					<th>Action</th>
 				</thead>
 				<tbody>
@@ -61,9 +62,8 @@
 						<td th:text="${cart.srNo}"></td>
 						<td th:text="${cart.name}"></td>
 						<td th:text="${cart.price}"></td>
-						<td>
-							<a th:href="@{/deleteCart(srNo=${cart.srNo})}"> Delete </a> <br />
-						</td>
+						<td> <a th:href="${cart.url}" th:text="'View Product'"> </a> </td>
+						<td> <a th:href="@{/deleteCart(srNo=${cart.srNo})}"> Delete </a></td>
 					</tr>
 				</tbody>
 			</table>

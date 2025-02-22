@@ -22,97 +22,102 @@ public class AddCartController {
 	@Autowired
 	private AddCartServiceImpl addCartService;
 
-	@GetMapping("/cart/{username}")
-	public String getCartProducts(@PathVariable String username, HttpServletRequest req, Model model) {
+	@GetMapping("/cart")
+	public String getCartProducts(HttpServletRequest req, Model model) {
 		HttpSession session = req.getSession();
-		String username1 = (String) session.getAttribute("username");
-		if (username1 == null) {
+		String username = (String) session.getAttribute("username");
+		if (username == null) {
 			model.addAttribute("emsg", "Please Login First");
 		} else {
-			List<AddCart> allCarts = addCartService.getProducts(username1);
+			List<AddCart> allCarts = addCartService.getProducts(username);
 //			model.addAttribute("cart", new AddCart());
 			model.addAttribute("carts", allCarts);
 		}
 		return "AddToCart";
 	}
 
-	@GetMapping("/deleteCart")
-	public String deleteUser(@RequestParam Long srNo, Model model) {
-		boolean status = addCartService.deleteUserBySrNo(srNo);
-		return "Code";
-	}
-
 	@GetMapping("/anarkaliSubmit1")
-	public String anarkali1(@RequestParam String productName,
-            @RequestParam String productPrice, @RequestParam String username, Model model, AddCart addCart, HttpServletRequest req) {
+	public String anarkali1(Model model, AddCart addCart, HttpServletRequest req) {
 		HttpSession session = req.getSession(true);
-		String username1 = (String) session.getAttribute("username");
-		if (username1 != null) {
-			addCartService.saveAnarkali1(username1, addCart); 
+		String username = (String) session.getAttribute("username");
+		if (username != null) {
+			addCartService.saveAnarkali1(username, addCart);
 			model.addAttribute("smsg", "Product Added Successfully.........");// Save product associated with the user
 			return "Clothes/Anarkali1";
-		}
-		else {
+		} else {
 			model.addAttribute("emsg", "Please Login First");
+			return "Clothes/Anarkali1";
 		}
-		 
-
-		return "Code";
 	}
 
 	@GetMapping("/anarkaliSubmit2")
-	public String anarkali2(@RequestParam String username, AddCart addCart, HttpServletRequest req) {
+	public String anarkali2(Model model, AddCart addCart, HttpServletRequest req) {
 		HttpSession session = req.getSession(true);
-		String username1 = (String) session.getAttribute("username");
-		if (username1 != null) {
-			addCartService.saveAnarkali2(username, addCart); // Save product associated with the user
-			return "AddToCart";
+		String username = (String) session.getAttribute("username");
+		if (username != null) {
+			addCartService.saveAnarkali2(username, addCart);
+			model.addAttribute("smsg", "Product Added Successfully.........");// Save product associated with the user
+			return "Clothes/Anarkali2";
+		} else {
+			model.addAttribute("emsg", "Please Login First");
+			return "Clothes/Anarkali2";
 		}
-		return "Code";
 	}
 
 	@GetMapping("/anarkaliSubmit3")
-	public String anarkali3(@RequestParam String username, AddCart addCart, HttpServletRequest req) {
+	public String anarkali3(Model model, AddCart addCart, HttpServletRequest req) {
 		HttpSession session = req.getSession(true);
-		String username1 = (String) session.getAttribute("username");
-		if (username1 != null) {
-			addCartService.saveAnarkali3(username, addCart); // Save product associated with the user
-			return "AddToCart";
+		String username = (String) session.getAttribute("username");
+		if (username != null) {
+			addCartService.saveAnarkali3(username, addCart);
+			model.addAttribute("smsg", "Product Added Successfully.........");// Save product associated with the user
+			return "Clothes/Anarkali3";
+		} else {
+			model.addAttribute("emsg", "Please Login First");
+			return "Clothes/Anarkali3";
 		}
-		return "Code";
 	}
 
 	@GetMapping("/anarkaliSubmit4")
-	public String anarkali4(@RequestParam String username, AddCart addCart, HttpServletRequest req) {
+	public String anarkali4(Model model, AddCart addCart, HttpServletRequest req) {
 		HttpSession session = req.getSession(true);
-		String username1 = (String) session.getAttribute("username");
-		if (username1 != null) {
-			addCartService.saveAnarkali4(username, addCart); // Save product associated with the user
-			return "AddToCart";
+		String username = (String) session.getAttribute("username");
+		if (username != null) {
+			addCartService.saveAnarkali4(username, addCart);
+			model.addAttribute("smsg", "Product Added Successfully.........");// Save product associated with the user
+			return "Clothes/Anarkali4";
+		} else {
+			model.addAttribute("emsg", "Please Login First");
+			return "Clothes/Anarkali4";
 		}
-		return "Code";
 	}
-
+	
 	@GetMapping("/anarkaliSubmit5")
-	public String anarkali5(@RequestParam String username, AddCart addCart, HttpServletRequest req) {
+	public String anarkali5(Model model, AddCart addCart, HttpServletRequest req) {
 		HttpSession session = req.getSession(true);
-		String username1 = (String) session.getAttribute("username");
-		if (username1 != null) {
-			addCartService.saveAnarkali5(username, addCart); // Save product associated with the user
-			return "AddToCart";
+		String username = (String) session.getAttribute("username");
+		if (username != null) {
+			addCartService.saveAnarkali5(username, addCart);
+			model.addAttribute("smsg", "Product Added Successfully.........");// Save product associated with the user
+			return "Clothes/Anarkali5";
+		} else {
+			model.addAttribute("emsg", "Please Login First");
+			return "Clothes/Anarkali5";
 		}
-		return "Code";
 	}
 
 	@GetMapping("/anarkaliSubmit6")
-	public String anarkali6(@RequestParam String username, AddCart addCart, HttpServletRequest req) {
+	public String anarkali6(Model model, AddCart addCart, HttpServletRequest req) {
 		HttpSession session = req.getSession(true);
-		String username1 = (String) session.getAttribute("username");
-		if (username1 != null) {
-			addCartService.saveAnarkali6(username, addCart); // Save product associated with the user
-			return "AddToCart";
+		String username = (String) session.getAttribute("username");
+		if (username != null) {
+			addCartService.saveAnarkali6(username, addCart);
+			model.addAttribute("smsg", "Product Added Successfully.........");// Save product associated with the user
+			return "Clothes/Anarkali6";
+		} else {
+			model.addAttribute("emsg", "Please Login First");
+			return "Clothes/Anarkali6";
 		}
-		return "Code";
 	}
 
 	@GetMapping("/anarkaliDupattaSubmit1")
@@ -202,7 +207,7 @@ public class AddCartController {
 		}
 		return "Code";
 	}
-	
+
 	@GetMapping("/cordSetSubmit1")
 	public String cordSet1(@RequestParam String username, AddCart addCart, HttpServletRequest req) {
 		HttpSession session = req.getSession(true);
@@ -257,7 +262,7 @@ public class AddCartController {
 		}
 		return "Code";
 	}
-	
+
 	@GetMapping("/cordSetSubmit6")
 	public String cordSet6(@RequestParam String username, AddCart addCart, HttpServletRequest req) {
 		HttpSession session = req.getSession(true);
@@ -268,7 +273,7 @@ public class AddCartController {
 		}
 		return "Code";
 	}
-	
+
 	@GetMapping("/kurtaDupattaSubmit1")
 	public String kurtaDupattaa1(@RequestParam String username, AddCart addCart, HttpServletRequest req) {
 		HttpSession session = req.getSession(true);
@@ -334,7 +339,7 @@ public class AddCartController {
 		}
 		return "Code";
 	}
-	
+
 	@GetMapping("/kurtaSetSubmit1")
 	public String kurtaSet1(@RequestParam String username, AddCart addCart, HttpServletRequest req) {
 		HttpSession session = req.getSession(true);
