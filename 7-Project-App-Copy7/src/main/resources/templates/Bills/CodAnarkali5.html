@@ -54,6 +54,14 @@
 			color: black;
 		}
 
+        .FormDiv .billBox {
+            position: relative;
+			width: 95%;
+			height: 25px;
+			margin: 30px 0;
+            text-align: center;
+		}
+
 		.FormDiv .btn {
 			width: 55%;
 			height: 30px;
@@ -80,10 +88,13 @@
 
 <body>
 	<div class="FormDiv">
-		<form action="/generateBillPdf" method="post">
+		<form action="/billAnarkali5" method="post">
 			<h1> Payment </h1>
 			<p style="color: black;font-weight: bold; text-align: center;font-size: 25px;" th:text="${emsg}"> </p>
 			<p style="color: black;font-weight: bold; text-align: center;font-size: 25px;" th:text="${smsg}"> </p>
+            <div th:if="${pdfGenerated}" class="billBox">
+				<a href="/pdfAnarkali5" style="font-size: 25px; font-weight: bold; color: black; text-align: center;">Download Your Bill </a>
+			</div>
 			<div class="radio-box">
 				<input type="radio" name="payment_method" value="cod" checked> Cash on Delivery
 			</div>

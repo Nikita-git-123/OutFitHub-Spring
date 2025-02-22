@@ -65,6 +65,7 @@
         <div class="LogoutDiv">
             <form th:action="@{/logout}" th:object="${logout}" >
                 <h1> Logout </h1>
+				<p style="color: black;font-weight: bold; text-align: center;font-size: 25px;" th:text="${smsg}"> </p>
                 <div class="logout-box">
                     <p> Are you sure you want to logout? </p>
                 </div>
