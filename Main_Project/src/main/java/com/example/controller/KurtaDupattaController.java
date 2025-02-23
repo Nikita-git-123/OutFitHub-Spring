@@ -23,43 +23,43 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpSession;
 
 @Controller
-public class BuyNowController {
-
+public class KurtaDupattaController {
+	
 	@Autowired
 	private CustomerService customerService;
 
-	@GetMapping("/codAnarkali1")
-	public String codAnarkali1(HttpServletRequest req, Model model) {
-		return "Bills/CodAnarkali1";
+	@GetMapping("/codKurtaDupatta1")
+	public String codKurtaDupatta1(HttpServletRequest req, Model model) {
+		return "Bills/CodKurtaDupatta1";
 	}
 
-	@GetMapping("/codAnarkali2")
-	public String codAnarkali2(HttpServletRequest req, Model model) {
-		return "Bills/CodAnarkali2";
+	@GetMapping("/codKurtaDupatta2")
+	public String codKurtaDupatta2(HttpServletRequest req, Model model) {
+		return "Bills/CodKurtaDupatta2";
 	}
 
-	@GetMapping("/codAnarkali3")
-	public String codAnarkali3(HttpServletRequest req, Model model) {
-		return "Bills/CodAnarkali3";
+	@GetMapping("/codKurtaDupatta3")
+	public String codKurtaDupatta3(HttpServletRequest req, Model model) {
+		return "Bills/CodKurtaDupatta3";
 	}
 
-	@GetMapping("/codAnarkali4")
-	public String codAnarkali4(HttpServletRequest req, Model model) {
-		return "Bills/CodAnarkali4";
+	@GetMapping("/codKurtaDupatta4")
+	public String codKurtaDupatta4(HttpServletRequest req, Model model) {
+		return "Bills/CodKurtaDupatta4";
 	}
 
-	@GetMapping("/codAnarkali5")
-	public String codAnarkali5(HttpServletRequest req, Model model) {
-		return "Bills/CodAnarkali5";
+	@GetMapping("/codKurtaDupatta5")
+	public String codKurtaDupatta5(HttpServletRequest req, Model model) {
+		return "Bills/CodKurtaDupatta5";
 	}
 
-	@GetMapping("/codAnarkali6")
-	public String codAnarkali6(HttpServletRequest req, Model model) {
-		return "Bills/CodAnarkali6";
+	@GetMapping("/codKurtaDupatta6")
+	public String codKurtaDupatta6(HttpServletRequest req, Model model) {
+		return "Bills/CodKurtaDupatta6";
 	}
 
-	@PostMapping("/billAnarkali1")
-	public String billAnarkali1(@RequestParam String address, @RequestParam String name, @RequestParam String size,
+	@PostMapping("/billKurtaDupatta1")
+	public String billKurtaDupatta1(@RequestParam String address, @RequestParam String name, @RequestParam String size,
 			Model model, HttpServletRequest req) throws Exception {
 		HttpSession session = req.getSession();
 		String username = (String) session.getAttribute("username");
@@ -80,8 +80,8 @@ public class BuyNowController {
 			document.add(new Paragraph("Customer Details: "));
 			document.add(new Paragraph("Customer Name: " + CustomerName)); // User name
 			document.add(new Paragraph("Product Details: "));
-			document.add(new Paragraph("Product Name:  Woman's Anarkali Set"));
-			document.add(new Paragraph("Price: $314 "));
+			document.add(new Paragraph("Product Name:  Woman's Rayon Kurti With Dupatta"));
+			document.add(new Paragraph("Price: $365 "));
 			document.add(new Paragraph("Product Size: " + size));
 			document.add(new Paragraph("Shipping Address: " + address));
 			document.close();
@@ -95,11 +95,11 @@ public class BuyNowController {
 			model.addAttribute("emsg", "User Not Found");
 
 		}
-		return "Bills/CodAnarkali1";
+		return "Bills/CodKurtaDupatta1";
 	}
 
-	@GetMapping("/pdfAnarkali1")
-	public ResponseEntity<InputStreamResource> pdfAnarkali1(HttpServletRequest req) throws Exception {
+	@GetMapping("/pdfKurtaDupatta1")
+	public ResponseEntity<InputStreamResource> pdfKurtaDupatta1(HttpServletRequest req) throws Exception {
 
 		// Retrieve the generated PDF from session or database
 		ByteArrayOutputStream byteArrayOutputStream = (ByteArrayOutputStream) req.getSession()
@@ -117,69 +117,8 @@ public class BuyNowController {
 				.contentLength(byteArrayOutputStream.size()).body(resource);
 	}
 
-	@PostMapping("/billAnarkali2")
-	public String billAnarkali2(@RequestParam String address, @RequestParam String name, @RequestParam String size,
-			Model model, HttpServletRequest req) throws Exception {
-		HttpSession session = req.getSession();
-		String username = (String) session.getAttribute("username");
-		String CustomerName = (String) session.getAttribute("CustomerName");
-		Optional<Customer> byName = customerService.findByName(CustomerName);
-		if (username == null) {
-			model.addAttribute("emsg", "Please Login First...");
-			System.out.println(username);
-			System.out.println(byName);
-		} else if (byName.isPresent()) {
-			System.out.println(username);
-			System.out.println(byName);
-			model.addAttribute("smsg", "Product will be delivered soon...");
-			ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
-			Document document = new Document();
-			PdfWriter.getInstance(document, byteArrayOutputStream);
-			document.open();
-			document.add(new Paragraph("Bill Details: "));
-			document.add(new Paragraph("Customer Details: "));
-			document.add(new Paragraph("Customer Name: " + CustomerName)); // User name
-			document.add(new Paragraph("Product Details: "));
-			document.add(new Paragraph("Product Name:  Woman's Crepe Anarkali Set"));
-			document.add(new Paragraph("Price: $429 "));
-			document.add(new Paragraph("Product Size: " + size));
-			document.add(new Paragraph("Shipping Address: " + address));
-			document.add(new Paragraph("Thank You!......."));
-			document.close();
-			ByteArrayInputStream bis = new ByteArrayInputStream(byteArrayOutputStream.toByteArray());
-			InputStreamResource resource = new InputStreamResource(bis);
-			session.setAttribute("pdfContent", byteArrayOutputStream);
-			model.addAttribute("pdfGenerated", true);
-		} else {
-			System.out.println(username);
-			System.out.println(byName);
-			model.addAttribute("emsg", "User Not Found");
-
-		}
-		return "Bills/CodAnarkali2";
-	}
-
-	@GetMapping("/pdfAnarkali2")
-	public ResponseEntity<InputStreamResource> pdfAnarkali2(HttpServletRequest req) throws Exception {
-
-		// Retrieve the generated PDF from session or database
-		ByteArrayOutputStream byteArrayOutputStream = (ByteArrayOutputStream) req.getSession()
-				.getAttribute("pdfContent");
-		if (byteArrayOutputStream == null) {
-			// If no PDF content found, return a 404 Not Found error
-			return ResponseEntity.status(404).body(null); // Not Found error
-		}
-
-		ByteArrayInputStream bis = new ByteArrayInputStream(byteArrayOutputStream.toByteArray());
-		InputStreamResource resource = new InputStreamResource(bis);
-
-		return ResponseEntity.ok().header("Content-Disposition", "attachment; filename=Bill.pdf")
-				.contentType(org.springframework.http.MediaType.APPLICATION_PDF)
-				.contentLength(byteArrayOutputStream.size()).body(resource);
-	}
-
-	@PostMapping("/billAnarkali3")
-	public String billAnarkali3(@RequestParam String address, @RequestParam String name, @RequestParam String size,
+	@PostMapping("/billKurtaDupatta2")
+	public String billKurtaDupatta2(@RequestParam String address, @RequestParam String name, @RequestParam String size,
 			Model model, HttpServletRequest req) throws Exception {
 		HttpSession session = req.getSession();
 		String username = (String) session.getAttribute("username");
@@ -201,8 +140,8 @@ public class BuyNowController {
 			document.add(new Paragraph("Customer Details: "));
 			document.add(new Paragraph("Customer Name: " + CustomerName)); // User name
 			document.add(new Paragraph("Product Details: "));
-			document.add(new Paragraph("Product Name:  Woman's Anarkali Set"));
-			document.add(new Paragraph("Price: $623 "));
+			document.add(new Paragraph("Product Name:  Woman's Crepe Kurti With Dupatta"));
+			document.add(new Paragraph("Price: $299 "));
 			document.add(new Paragraph("Product Size: " + size));
 			document.add(new Paragraph("Shipping Address: " + address));
 			document.add(new Paragraph("Thank You!......."));
@@ -217,11 +156,11 @@ public class BuyNowController {
 			model.addAttribute("emsg", "User Not Found");
 
 		}
-		return "Bills/CodAnarkali3";
+		return "Bills/CodKurtaDupatta2";
 	}
 
-	@GetMapping("/pdfAnarkali3")
-	public ResponseEntity<InputStreamResource> pdfAnarkali3(HttpServletRequest req) throws Exception {
+	@GetMapping("/pdfKurtaDupatta2")
+	public ResponseEntity<InputStreamResource> pdfKurtaDupatta2(HttpServletRequest req) throws Exception {
 
 		// Retrieve the generated PDF from session or database
 		ByteArrayOutputStream byteArrayOutputStream = (ByteArrayOutputStream) req.getSession()
@@ -239,8 +178,8 @@ public class BuyNowController {
 				.contentLength(byteArrayOutputStream.size()).body(resource);
 	}
 
-	@PostMapping("/billAnarkali4")
-	public String billAnarkali4(@RequestParam String address, @RequestParam String name, @RequestParam String size,
+	@PostMapping("/billKurtaDupatta3")
+	public String billKurtaDupatta3(@RequestParam String address, @RequestParam String name, @RequestParam String size,
 			Model model, HttpServletRequest req) throws Exception {
 		HttpSession session = req.getSession();
 		String username = (String) session.getAttribute("username");
@@ -262,8 +201,8 @@ public class BuyNowController {
 			document.add(new Paragraph("Customer Details: "));
 			document.add(new Paragraph("Customer Name: " + CustomerName)); // User name
 			document.add(new Paragraph("Product Details: "));
-			document.add(new Paragraph("Product Name:  Woman's Anarkali Set"));
-			document.add(new Paragraph("Price: $899 "));
+			document.add(new Paragraph("Product Name:  Woman's Cotton Kurti Set"));
+			document.add(new Paragraph("Price: $319 "));
 			document.add(new Paragraph("Product Size: " + size));
 			document.add(new Paragraph("Shipping Address: " + address));
 			document.add(new Paragraph("Thank You!......."));
@@ -278,11 +217,11 @@ public class BuyNowController {
 			model.addAttribute("emsg", "User Not Found");
 
 		}
-		return "Bills/CodAnarkali4";
+		return "Bills/CodKurtaDupatta3";
 	}
 
-	@GetMapping("/pdfAnarkali4")
-	public ResponseEntity<InputStreamResource> pdfAnarkali4(HttpServletRequest req) throws Exception {
+	@GetMapping("/pdfKurtaDupatta3")
+	public ResponseEntity<InputStreamResource> pdfKurtaDupatta3(HttpServletRequest req) throws Exception {
 
 		// Retrieve the generated PDF from session or database
 		ByteArrayOutputStream byteArrayOutputStream = (ByteArrayOutputStream) req.getSession()
@@ -300,8 +239,8 @@ public class BuyNowController {
 				.contentLength(byteArrayOutputStream.size()).body(resource);
 	}
 
-	@PostMapping("/billAnarkali5")
-	public String billAnarkali5(@RequestParam String address, @RequestParam String name, @RequestParam String size,
+	@PostMapping("/billKurtaDupatta4")
+	public String billKurtaDupatta4(@RequestParam String address, @RequestParam String name, @RequestParam String size,
 			Model model, HttpServletRequest req) throws Exception {
 		HttpSession session = req.getSession();
 		String username = (String) session.getAttribute("username");
@@ -323,8 +262,8 @@ public class BuyNowController {
 			document.add(new Paragraph("Customer Details: "));
 			document.add(new Paragraph("Customer Name: " + CustomerName)); // User name
 			document.add(new Paragraph("Product Details: "));
-			document.add(new Paragraph("Product Name:  Woman's Cotton Anarkali Set"));
-			document.add(new Paragraph("Price: $532 "));
+			document.add(new Paragraph("Product Name:  Woman's Kurti With Dupatta"));
+			document.add(new Paragraph("Price: $423 "));
 			document.add(new Paragraph("Product Size: " + size));
 			document.add(new Paragraph("Shipping Address: " + address));
 			document.add(new Paragraph("Thank You!......."));
@@ -339,11 +278,11 @@ public class BuyNowController {
 			model.addAttribute("emsg", "User Not Found");
 
 		}
-		return "Bills/CodAnarkali5";
+		return "Bills/CodKurtaDupatta4";
 	}
 
-	@GetMapping("/pdfAnarkali5")
-	public ResponseEntity<InputStreamResource> pdfAnarkali5(HttpServletRequest req) throws Exception {
+	@GetMapping("/pdfKurtaDupatta4")
+	public ResponseEntity<InputStreamResource> pdfKurtaDupatta4(HttpServletRequest req) throws Exception {
 
 		// Retrieve the generated PDF from session or database
 		ByteArrayOutputStream byteArrayOutputStream = (ByteArrayOutputStream) req.getSession()
@@ -361,8 +300,8 @@ public class BuyNowController {
 				.contentLength(byteArrayOutputStream.size()).body(resource);
 	}
 
-	@PostMapping("/billAnarkali6")
-	public String billAnarkali6(@RequestParam String address, @RequestParam String name, @RequestParam String size,
+	@PostMapping("/billKurtaDupatta5")
+	public String billKurtaDupatta5(@RequestParam String address, @RequestParam String name, @RequestParam String size,
 			Model model, HttpServletRequest req) throws Exception {
 		HttpSession session = req.getSession();
 		String username = (String) session.getAttribute("username");
@@ -384,8 +323,8 @@ public class BuyNowController {
 			document.add(new Paragraph("Customer Details: "));
 			document.add(new Paragraph("Customer Name: " + CustomerName)); // User name
 			document.add(new Paragraph("Product Details: "));
-			document.add(new Paragraph("Product Name:  Woman's Crepe Anarkali Set"));
-			document.add(new Paragraph("Price: $429 "));
+			document.add(new Paragraph("Product Name:  Woman's Khadi Cotton Set"));
+			document.add(new Paragraph("Price: $308 "));
 			document.add(new Paragraph("Product Size: " + size));
 			document.add(new Paragraph("Shipping Address: " + address));
 			document.add(new Paragraph("Thank You!......."));
@@ -400,11 +339,11 @@ public class BuyNowController {
 			model.addAttribute("emsg", "User Not Found");
 
 		}
-		return "Bills/CodAnarkali6";
+		return "Bills/CodKurtaDupatta5";
 	}
 
-	@GetMapping("/pdfAnarkali6")
-	public ResponseEntity<InputStreamResource> pdfAnarkali6(HttpServletRequest req) throws Exception {
+	@GetMapping("/pdfKurtaDupatta5")
+	public ResponseEntity<InputStreamResource> pdfKurtaDupatta5(HttpServletRequest req) throws Exception {
 
 		// Retrieve the generated PDF from session or database
 		ByteArrayOutputStream byteArrayOutputStream = (ByteArrayOutputStream) req.getSession()
@@ -421,4 +360,66 @@ public class BuyNowController {
 				.contentType(org.springframework.http.MediaType.APPLICATION_PDF)
 				.contentLength(byteArrayOutputStream.size()).body(resource);
 	}
+
+	@PostMapping("/billKurtaDupatta6")
+	public String billKurtaDupatta6(@RequestParam String address, @RequestParam String name, @RequestParam String size,
+			Model model, HttpServletRequest req) throws Exception {
+		HttpSession session = req.getSession();
+		String username = (String) session.getAttribute("username");
+		String CustomerName = (String) session.getAttribute("CustomerName");
+		Optional<Customer> byName = customerService.findByName(CustomerName);
+		if (username == null) {
+			model.addAttribute("emsg", "Please Login First...");
+			System.out.println(username);
+			System.out.println(byName);
+		} else if (byName.isPresent()) {
+			System.out.println(username);
+			System.out.println(byName);
+			model.addAttribute("smsg", "Product will be delivered soon...");
+			ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+			Document document = new Document();
+			PdfWriter.getInstance(document, byteArrayOutputStream);
+			document.open();
+			document.add(new Paragraph("Bill Details: "));
+			document.add(new Paragraph("Customer Details: "));
+			document.add(new Paragraph("Customer Name: " + CustomerName)); // User name
+			document.add(new Paragraph("Product Details: "));
+			document.add(new Paragraph("Product Name:  Woman's Cotton Dupatta Set"));
+			document.add(new Paragraph("Price: $408 "));
+			document.add(new Paragraph("Product Size: " + size));
+			document.add(new Paragraph("Shipping Address: " + address));
+			document.add(new Paragraph("Thank You!......."));
+			document.close();
+			ByteArrayInputStream bis = new ByteArrayInputStream(byteArrayOutputStream.toByteArray());
+			InputStreamResource resource = new InputStreamResource(bis);
+			session.setAttribute("pdfContent", byteArrayOutputStream);
+			model.addAttribute("pdfGenerated", true);
+		} else {
+			System.out.println(username);
+			System.out.println(byName);
+			model.addAttribute("emsg", "User Not Found");
+
+		}
+		return "Bills/CodKurtaDupatta6";
+	}
+
+	@GetMapping("/pdfKurtaDupatta6")
+	public ResponseEntity<InputStreamResource> pdfKurtaDupatta6(HttpServletRequest req) throws Exception {
+
+		// Retrieve the generated PDF from session or database
+		ByteArrayOutputStream byteArrayOutputStream = (ByteArrayOutputStream) req.getSession()
+				.getAttribute("pdfContent");
+		if (byteArrayOutputStream == null) {
+			// If no PDF content found, return a 404 Not Found error
+			return ResponseEntity.status(404).body(null); // Not Found error
+		}
+
+		ByteArrayInputStream bis = new ByteArrayInputStream(byteArrayOutputStream.toByteArray());
+		InputStreamResource resource = new InputStreamResource(bis);
+
+		return ResponseEntity.ok().header("Content-Disposition", "attachment; filename=Bill.pdf")
+				.contentType(org.springframework.http.MediaType.APPLICATION_PDF)
+				.contentLength(byteArrayOutputStream.size()).body(resource);
+	}
+
 }

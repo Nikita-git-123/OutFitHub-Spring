@@ -120,6 +120,7 @@ public class AddCartServiceImpl {
 			AddCart anarkali1 = new AddCart();
 			anarkali1.setName("Woman's Anarkali Set");
 			anarkali1.setPrice(540.00);
+			anarkali1.setUrl("/anarkalidupatta1");
 			anarkali1.setCustomer(customer); // Associate this cart item with the user
 			addCartRepo.save(anarkali1);
 		} else {
@@ -133,6 +134,7 @@ public class AddCartServiceImpl {
 			AddCart anarkali1 = new AddCart();
 			anarkali1.setName("Woman's Crepe Anarkali Set");
 			anarkali1.setPrice(366.00);
+			anarkali1.setUrl("/anarkalidupatta2");
 			anarkali1.setCustomer(customer); // Associate this cart item with the user
 			addCartRepo.save(anarkali1);
 		} else {
@@ -146,6 +148,7 @@ public class AddCartServiceImpl {
 			AddCart anarkali1 = new AddCart();
 			anarkali1.setName("Woman's Cotton Anarkali Set");
 			anarkali1.setPrice(580.00);
+			anarkali1.setUrl("/anarkalidupatta3");
 			anarkali1.setCustomer(customer); // Associate this cart item with the user
 			addCartRepo.save(anarkali1);
 		} else {
@@ -159,6 +162,7 @@ public class AddCartServiceImpl {
 			AddCart anarkali1 = new AddCart();
 			anarkali1.setName("Woman's Anarkali Set");
 			anarkali1.setPrice(699.00);
+			anarkali1.setUrl("/anarkalidupatta4");
 			anarkali1.setCustomer(customer); // Associate this cart item with the user
 			addCartRepo.save(anarkali1);
 		} else {
@@ -172,6 +176,7 @@ public class AddCartServiceImpl {
 			AddCart anarkali1 = new AddCart();
 			anarkali1.setName("Woman's Organza Anarkali Set");
 			anarkali1.setPrice(532.00);
+			anarkali1.setUrl("/anarkalidupatta5");
 			anarkali1.setCustomer(customer); // Associate this cart item with the user
 			addCartRepo.save(anarkali1);
 		} else {
@@ -185,6 +190,7 @@ public class AddCartServiceImpl {
 			AddCart anarkali1 = new AddCart();
 			anarkali1.setName("Woman's Party Wear Anarkali Set");
 			anarkali1.setPrice(666.00);
+			anarkali1.setUrl("/anarkalidupatta6");
 			anarkali1.setCustomer(customer); // Associate this cart item with the user
 			addCartRepo.save(anarkali1);
 		} else {
@@ -198,6 +204,7 @@ public class AddCartServiceImpl {
 			AddCart anarkali1 = new AddCart();
 			anarkali1.setName("Woman's Organza Anarkali Set");
 			anarkali1.setPrice(670.00);
+			anarkali1.setUrl("/anarkalidupatta7");
 			anarkali1.setCustomer(customer); // Associate this cart item with the user
 			addCartRepo.save(anarkali1);
 		} else {
@@ -211,6 +218,7 @@ public class AddCartServiceImpl {
 			AddCart anarkali1 = new AddCart();
 			anarkali1.setName("Woman's Party Wear Anarkali Set");
 			anarkali1.setPrice(780.00);
+			anarkali1.setUrl("/anarkalidupatta8");
 			anarkali1.setCustomer(customer); // Associate this cart item with the user
 			addCartRepo.save(anarkali1);
 		} else {
@@ -224,6 +232,7 @@ public class AddCartServiceImpl {
 			AddCart anarkali1 = new AddCart();
 			anarkali1.setName("Woman's Rayon Cord Set");
 			anarkali1.setPrice(365.00);
+			anarkali1.setUrl("/cordset1");
 			anarkali1.setCustomer(customer); // Associate this cart item with the user
 			addCartRepo.save(anarkali1);
 		} else {
@@ -237,6 +246,7 @@ public class AddCartServiceImpl {
 			AddCart anarkali1 = new AddCart();
 			anarkali1.setName("Woman's Crepe Cord Set");
 			anarkali1.setPrice(299.00);
+			anarkali1.setUrl("/cordset2");
 			anarkali1.setCustomer(customer); // Associate this cart item with the user
 			addCartRepo.save(anarkali1);
 		} else {
@@ -250,6 +260,7 @@ public class AddCartServiceImpl {
 			AddCart anarkali1 = new AddCart();
 			anarkali1.setName("Woman's Cotton Cord Set");
 			anarkali1.setPrice(319.00);
+			anarkali1.setUrl("/cordset3");
 			anarkali1.setCustomer(customer); // Associate this cart item with the user
 			addCartRepo.save(anarkali1);
 		} else {
@@ -263,6 +274,7 @@ public class AddCartServiceImpl {
 			AddCart anarkali1 = new AddCart();
 			anarkali1.setName("Woman's Cord Set");
 			anarkali1.setPrice(423.00);
+			anarkali1.setUrl("/cordset4");
 			anarkali1.setCustomer(customer); // Associate this cart item with the user
 			addCartRepo.save(anarkali1);
 		} else {
@@ -276,6 +288,7 @@ public class AddCartServiceImpl {
 			AddCart anarkali1 = new AddCart();
 			anarkali1.setName("Woman's Khadi Cotton Cord Set");
 			anarkali1.setPrice(308.00);
+			anarkali1.setUrl("/cordset5");
 			anarkali1.setCustomer(customer); // Associate this cart item with the user
 			addCartRepo.save(anarkali1);
 		} else {
@@ -289,6 +302,7 @@ public class AddCartServiceImpl {
 			AddCart anarkali1 = new AddCart();
 			anarkali1.setName("Woman's Cotton Cord Set");
 			anarkali1.setPrice(408.00);
+			anarkali1.setUrl("/cordset6");
 			anarkali1.setCustomer(customer); // Associate this cart item with the user
 			addCartRepo.save(anarkali1);
 		} else {
@@ -302,6 +316,7 @@ public class AddCartServiceImpl {
 			AddCart anarkali1 = new AddCart();
 			anarkali1.setName("Woman's Rayon Kurti With Dupatta");
 			anarkali1.setPrice(365.00);
+			anarkali1.setUrl("/kurtadupatta1");
 			anarkali1.setCustomer(customer); // Associate this cart item with the user
 			addCartRepo.save(anarkali1);
 		} else {
@@ -315,6 +330,7 @@ public class AddCartServiceImpl {
 			AddCart anarkali1 = new AddCart();
 			anarkali1.setName("Woman's Crepe Kurti With Dupatta");
 			anarkali1.setPrice(299.00);
+			anarkali1.setUrl("/kurtadupatta2");
 			anarkali1.setCustomer(customer); // Associate this cart item with the user
 			addCartRepo.save(anarkali1);
 		} else {
@@ -328,6 +344,7 @@ public class AddCartServiceImpl {
 			AddCart anarkali1 = new AddCart();
 			anarkali1.setName("Woman's Cotton Kurti Set");
 			anarkali1.setPrice(319.00);
+			anarkali1.setUrl("/kurtadupatta3");
 			anarkali1.setCustomer(customer); // Associate this cart item with the user
 			addCartRepo.save(anarkali1);
 		} else {
@@ -341,6 +358,7 @@ public class AddCartServiceImpl {
 			AddCart anarkali1 = new AddCart();
 			anarkali1.setName("Woman's Kurti With Dupatta");
 			anarkali1.setPrice(423.00);
+			anarkali1.setUrl("/kurtadupatta4");
 			anarkali1.setCustomer(customer); // Associate this cart item with the user
 			addCartRepo.save(anarkali1);
 		} else {
@@ -354,6 +372,7 @@ public class AddCartServiceImpl {
 			AddCart anarkali1 = new AddCart();
 			anarkali1.setName("Woman's Khadi Cotton Set");
 			anarkali1.setPrice(308.00);
+			anarkali1.setUrl("/kurtadupatta5");
 			anarkali1.setCustomer(customer); // Associate this cart item with the user
 			addCartRepo.save(anarkali1);
 		} else {
@@ -367,6 +386,7 @@ public class AddCartServiceImpl {
 			AddCart anarkali1 = new AddCart();
 			anarkali1.setName("Woman's Cotton Dupatta Set");
 			anarkali1.setPrice(408.00);
+			anarkali1.setUrl("/kurtadupatta6");
 			anarkali1.setCustomer(customer); // Associate this cart item with the user
 			addCartRepo.save(anarkali1);
 		} else {
@@ -380,6 +400,7 @@ public class AddCartServiceImpl {
 			AddCart anarkali1 = new AddCart();
 			anarkali1.setName("Woman's Rayon Kurti With Plazzo");
 			anarkali1.setPrice(365.00);
+			anarkali1.setUrl("/kurtaset1");
 			anarkali1.setCustomer(customer); // Associate this cart item with the user
 			addCartRepo.save(anarkali1);
 		} else {
@@ -393,6 +414,7 @@ public class AddCartServiceImpl {
 			AddCart anarkali1 = new AddCart();
 			anarkali1.setName("Woman's Crepe Plazzo Set");
 			anarkali1.setPrice(299.00);
+			anarkali1.setUrl("/kurtaset2");
 			anarkali1.setCustomer(customer); // Associate this cart item with the user
 			addCartRepo.save(anarkali1);
 		} else {
@@ -406,6 +428,7 @@ public class AddCartServiceImpl {
 			AddCart anarkali1 = new AddCart();
 			anarkali1.setName("Woman's Cotton Kurti With Plazzo");
 			anarkali1.setPrice(319.00);
+			anarkali1.setUrl("/kurtaset3");
 			anarkali1.setCustomer(customer); // Associate this cart item with the user
 			addCartRepo.save(anarkali1);
 		} else {
@@ -419,6 +442,7 @@ public class AddCartServiceImpl {
 			AddCart anarkali1 = new AddCart();
 			anarkali1.setName("Woman's Cotton Kurti With Plazzo");
 			anarkali1.setPrice(423.00);
+			anarkali1.setUrl("/kurtaset4");
 			anarkali1.setCustomer(customer); // Associate this cart item with the user
 			addCartRepo.save(anarkali1);
 		} else {
@@ -432,6 +456,7 @@ public class AddCartServiceImpl {
 			AddCart anarkali1 = new AddCart();
 			anarkali1.setName("Woman's Khadi Cotton Kurti Set");
 			anarkali1.setPrice(365.00);
+			anarkali1.setUrl("/kurtaset5");
 			anarkali1.setCustomer(customer); // Associate this cart item with the user
 			addCartRepo.save(anarkali1);
 		} else {
@@ -445,6 +470,7 @@ public class AddCartServiceImpl {
 			AddCart anarkali1 = new AddCart();
 			anarkali1.setName("Woman's Cotton Kurta Set");
 			anarkali1.setPrice(365.00);
+			anarkali1.setUrl("/kurtaset6");
 			anarkali1.setCustomer(customer); // Associate this cart item with the user
 			addCartRepo.save(anarkali1);
 		} else {

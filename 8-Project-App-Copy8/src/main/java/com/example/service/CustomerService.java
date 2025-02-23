@@ -34,4 +34,9 @@ public class CustomerService {
 		return customerRepo.findByName(name);
 	}
 	
+	/*
+	 * public Optional<Customer> findByUsername(String name) { return
+	 * customerRepo.findByUsername(name); }
+	 */
+	
 }

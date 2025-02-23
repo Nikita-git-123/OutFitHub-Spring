@@ -5,10 +5,11 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.example.entity.Customer;
 import com.example.service.CustomerService;
@@ -84,15 +85,38 @@ public class CustomerController {
 	}
 
 	@PostMapping("/login")
-	public String login(HttpServletRequest req, @RequestParam String username, @RequestParam String password1) {
+	public String login(@ModelAttribute("login") Customer login, BindingResult result, Model model, HttpServletRequest req, @RequestParam String username,
+			@RequestParam String password1) {
 		Optional<Customer> customer = customerService.findByUsernameAndPassword1(username, password1);
 		if (customer.isPresent()) {
 			HttpSession session = req.getSession();
 			session.setAttribute("username", username);
 			return "CodeLogout";
+		} else {
+			model.addAttribute("emsg", "Invalid Credentials");
+			return "Login";
 		}
-		return "Login";
 	}
+
+	/*
+	 * @PostMapping("/login") public String login(Model model, HttpServletRequest
+	 * req, @RequestParam String username, @RequestParam String password1) { // Step
+	 * 1: Try to find the user by username Optional<Customer> customer =
+	 * customerService.findByUsername(username);
+	 * 
+	 * if (customer.isPresent()) { // Step 2: If user is found, check if the
+	 * password is correct Customer foundCustomer = customer.get();
+	 * 
+	 * // You should be using a secure password comparison (e.g., BCrypt check) if
+	 * (password1.equals(foundCustomer.getPassword1())) { // Step 3: If password
+	 * matches, create a session and redirect HttpSession session =
+	 * req.getSession(); session.setAttribute("username", username); return
+	 * "CodeLogout"; // Redirect to the dashboard or another page } else { // If
+	 * password is incorrect model.addAttribute("emsg", "Incorrect password.");
+	 * return "Login"; // Return to login page with error message } } else { // If
+	 * user is not found model.addAttribute("emsg", "User not found."); return
+	 * "Login"; // Return to login page with error message } }
+	 */
 
 	@GetMapping("/logout")
 	public String logout(HttpServletRequest req, Model model) {
