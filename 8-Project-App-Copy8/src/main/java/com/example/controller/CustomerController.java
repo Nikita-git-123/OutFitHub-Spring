@@ -79,9 +79,9 @@ public class CustomerController {
 			customer.setPassword1(password1);
 			customerService.saveCustomer(customer);
 
-			return "Login "; // executing successfully
+			return "CodeLogin"; // executing successfully
 		}
-		return "failed...";
+		return "PwdMismatch";
 	}
 
 	@PostMapping("/login")

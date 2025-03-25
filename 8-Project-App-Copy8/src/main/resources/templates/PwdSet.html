@@ -75,7 +75,7 @@
     </head>
     <body>
         <div class="ResetPwd">
-            <form action="#" th:action="@{/setPwd}" th:object="${updatePwd}" method="post"> 
+            <form action="/setPwd" th:action="@{/setPwd}" th:object="${updatePwd}" method="post"> 
                 <h1> Reset Password </h1>
                 <div class="input-box">
                     <input type="password" th:field="*{password1}" placeholder="Password" minlength="8" maxlength="10" name="Upwd1" required>
